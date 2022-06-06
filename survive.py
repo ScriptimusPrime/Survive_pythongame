@@ -44,13 +44,30 @@ BUTTON_DOWN_PRESSED = USEREVENT + 2
 BUTTON_START_PRESSED = USEREVENT + 3
 
 Kanonen_x = [
-    [59, 42, 36, 36, 72, 313, 304, 299, 275, 267, 260, 431, 204, 202, 444, 442, 114, 262, 408, 358, 358, 40,
-     278, 35,
-     263], [], [], []]
+    [59, 42, 36, 36, 72, 313, 304, 299, 275, 267, 260, 431, 204, 202, 444, 442, 114, 262, 408, 358, 358, 40, 278, 35, 263],
+    [22, 55, 210, 162, 172, 222, 320, 328, 103, 379, 297, 306, 356, 69, 304, 220, 418, 26, 144, 26, 453, 298, 290, 171, 247, 266, 283, 392, 239, 362, 382, 278, 400, 210, 62, 308, 54, 247, 471, 70, 356, 174, 255, 68, 99, 166, 232, 82, 178, 242, 98,
+     189, 253, 130, 115, 290, 467, 322, 179, 42, 83, 448, 352, 253, 102, 465, 81, 231, 278, 453, 378],
+    [249, 164, 250, 192, 306, 152, 348, 460, 38, 138, 360, 360, 139, 123, 376, 325, 230, 81, 416, 250, 96, 402, 250, 145, 353, 250, 250, 147, 349, 154, 344, 248, 251, 144, 355, 141, 354, 141, 354, 141, 34, 141, 354, 174, 324, 249, 250, 250, 40, 456,
+     248, 248, 89, 409, 58, 442, 52, 446, 255, 32, 467, 116, 383, 249, 21, 472, 249, 250, 47, 455, 249, 8, 204, 294, 250, 250, 128, 372, 16, 32, 467, 48, 450, 66, 424, 250, 88, 411, 249, 105, 394, 250, 69, 426, 127, 370, 250, 250, 200, 298],
+    [86, 228, 363, 259, 103, 35, 323, 451, 385, 421, 368, 452, 34, 387, 281, 179, 41, 284, 212, 79, 319, 69, 326, 260, 219, 73, 6, 283, 249, 215, 182, 174, 280, 79, 147, 1, 275, 207, 74, 1, 168, 275, 63, 451, 210, 177, 142, 261, 108, 73, 378, 361,
+     341, 196, 179, 161, 91, 187, 87, 152, 326, 304, 284, 263, 23, 442, 8, 247, 191, 60, 163, 301, 96, 257, 124, 208, 81, 444, 152, 353, 258, 33, 290, 166, 3, 259, 435, 249, 172, 334, 83, 7, 355, 23, 370, 386, 396, 403, 129, 208, 412, 98, 386, 359,
+     328, 261, 45, 464, 376, 278, 241, 331, 391, 325, 407, 46, 146, 300, 422, 252, 226, 366, 417, 276, 332, 8, 136, 266, 410, 96, 93, 150, 205, 431, 343, 447, 271, 161, 455, 362, 114, 446, 141, 451, 434, 446, 394, 340, 115, 14, 268, 330, 61, 138,
+     450, 273, 25, 147, 85, 340, 468, 399, 439, 387, 472, 71, 133, 46, 291, 31, 390, 211, 25, 242, 444, 20, 164, 418, 347, 261, 45, 259, 342, 150, 420, 167, 56, 240, 116, 330, 434, 247, 161, 446, 273, 351, 417, 272, 474, 344, 201, 440, 269, 378, 5,
+     280, 352, 203, 415, 279, 133, 203, 371, 466, 266, 199, 157, 398, 364, 331, 299, 433, 130, 380, 343, 210, 25]]
 Kanonen_y = [
-    [2127, 2369, 2451, 2545, 2683, 3782, 3925, 4064, 4677, 4825, 4958, 6240, 6273, 6337, 6396, 6464, 6629,
-     6641, 6929,
-     6977, 7043, 7331, 7343, 7558, 7571], [], [], [], []]
+    [2127, 2369, 2451, 2545, 2683, 3782, 3925, 4064, 4677, 4825, 4958, 6240, 6273, 6337, 6396, 6464, 6629, 6641, 6929, 6977, 7043, 7331, 7343, 7558, 7571],
+    [377, 600, 750, 888, 960, 1001, 1193, 1261, 1305, 1305, 1460, 1530, 1574, 1613, 1686, 1890, 2071, 2110, 2370, 2543, 2607, 2665, 2841, 2860, 2980, 3119, 3257, 3489, 3508, 3866, 4006, 4034, 4143, 4464, 4482, 4593, 4737, 4747, 4753, 4927, 4954,
+     5193, 5259, 5290, 5350, 5371, 5401, 5417, 5456, 5494, 5538, 5542, 5578, 5600, 5664, 5813, 6044, 6061, 6080, 6097, 6304, 6545, 6557, 6568, 6684, 6839, 6847, 7050, 7289, 7451, 7576],
+    [773, 996, 1354, 1490, 1490, 1786, 1788, 1790, 1792, 2011, 2012, 2069, 2070, 2146, 2147, 2302, 2545, 2620, 2620, 2842, 3044, 3044, 3072, 3104, 3104, 3383, 3494, 3502, 3502, 3599, 3599, 3780, 4000, 4126, 4126, 4313, 4313, 4369, 4369, 4460, 4460,
+     4518, 4518, 4579, 4579, 4964, 5204, 5350, 5592, 5592, 5773, 5992, 6100, 6102, 6310, 6310, 6474, 6474, 6602, 6648, 6648, 6962, 6962, 7134, 7409, 7409, 7414, 7696, 7760, 7760, 7840, 8199, 8234, 8234, 8544, 8691, 8772, 8772, 9016, 9090, 9090, 9163,
+     9163, 9235, 9235, 9434, 9492, 9492, 9602, 9620, 9620, 9758, 9769, 9769, 10008, 10008, 10058, 10188, 10278, 10278],
+    [450, 471, 485, 609, 658, 670, 684, 703, 717, 786, 837, 850, 1123, 1226, 1279, 1300, 1321, 1680, 1776, 1808, 1832, 2320, 2444, 2457, 2511, 2604, 2617, 2653, 2673, 2694, 2715, 2874, 2893, 2985, 3013, 3035, 3036, 3050, 3060, 3105, 3106, 3166, 3173,
+     3176, 3241, 3262, 3281, 3294, 3300, 3419, 4387, 4415, 4442, 4658, 4684, 4710, 4741, 4881, 4916, 5003, 5088, 5138, 5189, 5243, 5346, 5379, 5623, 5845, 5984, 6157, 6196, 6365, 6447, 6467, 6787, 6857, 6888, 6968, 6973, 7039, 7110, 7232, 7309, 7318,
+     8276, 8456, 8509, 8663, 8733, 8945, 8955, 8977, 9076, 9085, 9206, 9343, 9471, 9611, 9635, 9737, 9755, 9776, 9788, 9824, 9862, 9975, 10379, 10892, 10958, 11063, 11338, 11452, 11475, 11576, 11675, 11669, 11957, 12023, 12075, 12309, 12364, 12390,
+     12562, 12600, 12624, 12894, 13066, 13236, 13409, 13518, 13787, 13796, 13805, 13930, 14219, 14278, 14291, 14330, 14443, 14548, 14585, 14696, 14819, 14836, 14988, 15453, 15462, 15476, 15701, 15777, 15780, 16162, 16188, 16198, 16242, 16287, 16318,
+     16335, 16348, 16360, 16372, 16393, 16460, 16516, 16524, 16688, 16821, 16880, 17037, 17064, 17179, 17254, 17490, 17567, 17590, 17603, 17633, 17748, 17760, 17765, 17832, 17920, 17991, 18039, 18137, 18151, 18173, 18219, 18248, 18445, 18505, 18599,
+     18619, 18699, 18724, 18809, 18838, 18858, 18875, 18884, 18906, 18925, 18931, 19164, 19204, 19279, 19309, 19330, 19349, 19352, 19375, 19399, 19402, 19467, 19470, 19484, 19537, 19537, 19560, 19580, 19603, 19608, 19629, 19630, 19659, 19738, 19860]]
+Kanonen_Versatz = [38, 38, 340, 750]
 Background_Mapping = [3, 1, 2, 4]
 Background_Count = [24, 24, 31, 57]
 # Weitere Konstanten
@@ -67,13 +84,6 @@ SCROLLSPEED = 2
 POINTS_NO = False
 POINTS_YES = True
 
-showLevel = True
-Level = 1
-Gegnergetroffen = 0
-smallbonusavailable = True
-mediumbonusavailable = True
-largebonusavailable = True
-
 # Fonts festlegen
 font = pygame.font.SysFont("Verdana", 60)
 font_small = pygame.font.SysFont("Verdana", 20)
@@ -85,6 +95,10 @@ screen.fill(BLACK)
 pygame.display.set_caption("Survive")
 pygame.mouse.set_visible(False)
 laserImages = [image.load('Laser/beam2.png'), image.load('Laser/beaml.png'), image.load('Laser/beamr.png'), image.load('Laser/beamdl.png'), image.load('Laser/beamdr.png')]
+gegnerImages = [image.load('Enemys/1n.png'), image.load('Enemys/2n.png'), image.load('Enemys/3n.png'), image.load('Enemys/4n.png'), image.load('Enemys/5n.png'), image.load('Enemys/6n.png'), image.load('Enemys/7n.png'), image.load('Enemys/8n.png'),
+                image.load('Enemys/9n.png'), image.load('Enemys/1s.png'), image.load('Enemys/2s.png'), image.load('Enemys/3s.png'), image.load('Enemys/4s.png'), image.load('Enemys/5s.png'), image.load('Enemys/6s.png'), image.load('Enemys/7s.png'),
+                image.load(
+                    'Enemys/8s.png'), image.load('Enemys/9s.png')]
 gegnerlaserImages = [image.load('Gegnerfeuer/1.png'), image.load('Gegnerfeuer/2.png'), image.load('Gegnerfeuer/3.png'),
                      image.load('Gegnerfeuer/4.png'), image.load('Gegnerfeuer/5.png'), image.load('Gegnerfeuer/20.png'),
                      image.load('Gegnerfeuer/boss1.png'), image.load('Gegnerfeuer/boss2.png'),
@@ -95,7 +109,7 @@ bonusImages = [image.load('Bonus/1.png'), image.load('Bonus/2.png'), image.load(
                image.load('Bonus/4.png'), image.load('Bonus/5.png'), image.load('Bonus/6.png'),
                image.load('Bonus/7.png'), image.load('Bonus/8.png'), image.load('Bonus/9.png'),
                image.load('Bonus/10.png'), image.load('Bonus/11.png')]
-levelImages = [image.load('Sonstiges/Level1.png'),image.load('Sonstiges/Level2.png'),image.load('Sonstiges/Level3.png'),image.load('Sonstiges/Level4.png')]
+levelImages = [image.load('Sonstiges/Level1.png'), image.load('Sonstiges/Level2.png'), image.load('Sonstiges/Level3.png'), image.load('Sonstiges/Level4.png')]
 buttonImages = [image.load('Sonstiges/Button_up.png'), image.load('Sonstiges/Button_down.png'), image.load('Sonstiges/Button_start.png'), image.load('Sonstiges/Levelwahl1.png'), image.load('Sonstiges/Levelwahl2.png'),
                 image.load('Sonstiges/Levelwahl3.png'), image.load('Sonstiges/Levelwahl4.png')]
 schutzschildImages = [image.load('Schutzschild/0.png'), image.load('Schutzschild/1.png'), image.load('Schutzschild/2.png'), image.load('Schutzschild/3.png'), image.load('Schutzschild/4.png')]
@@ -103,7 +117,7 @@ mineImages = [image.load('Mine/1.png'), image.load('Mine/2.png'), image.load('Mi
 meteorImage = [image.load('Meteor/meteor.png')]
 zahlImages = [image.load('Zahlen/0.png'), image.load('Zahlen/1.png'), image.load('Zahlen/2.png'), image.load('Zahlen/3.png'), image.load('Zahlen/4.png'), image.load('Zahlen/5.png'), image.load('Zahlen/6.png'), image.load('Zahlen/7.png'),
               image.load('Zahlen/8.png'), image.load('Zahlen/9.png')]
-laserSounds = [mixer.Sound('Sounds/Laser0.wav'), mixer.Sound('Sounds/Laser1.wav'), mixer.Sound('Sounds/Laser1.wav'), mixer.Sound('Sounds/Laser4.wav'), mixer.Sound('Sounds/Laser4.wav'), ]
+laserSounds = [mixer.Sound('Sounds/Laser0.wav'), mixer.Sound('Sounds/Laser1.wav'), mixer.Sound('Sounds/Laser4.wav')]
 explosionSounds = [mixer.Sound('Explosionssounds/exp1.wav'), mixer.Sound('Explosionssounds/exp2.wav'), mixer.Sound('Explosionssounds/exp3.wav'), mixer.Sound('Explosionssounds/exp4.wav'),
                    mixer.Sound('Explosionssounds/exp5.wav'), mixer.Sound('Explosionssounds/exp6.wav'), mixer.Sound('Explosionssounds/exp7.wav'), mixer.Sound('Explosionssounds/exp8.wav'),
                    mixer.Sound('Explosionssounds/exp9.wav')]
@@ -122,20 +136,41 @@ bonusAktiv = []
 minesAktiv = []
 meteorsAktiv = []
 
-kanonenListcounter = 0
-timeOfLastEnemyWave = 0
-timeTillNewWave = 0
-timeOfLastMine = 0
-timeTillNewMine = 0
-timeOfLastMeteor = 0
-timeTillNewMeteor = 0
 
-Lives = 13
-Points = 12345
+class Game():
+    def __init__(self):
+        self.kanonenListcounter = 0
+        self.timeOfLastEnemyWave = 0
+        self.timeTillNewWave = 0
+        self.timeOfLastMine = 0
+        self.timeTillNewMine = 0
+        self.timeOfLastMeteor = 0
+        self.timeTillNewMeteor = 0
+        self.timeLastShot = now()
+        self.scroll_yPos = 0
+        self.Mode = START
+        self.showLevel = True
+        self.Level = 1
+        self.Gegnergetroffen = 0
+        self.smallbonusavailable = True
+        self.mediumbonusavailable = True
+        self.largebonusavailable = True
 
-timeLastShot = time() * 1000
-scroll_yPos = 0
-game_Mode = START
+    def levelinit(self):
+        self.kanonenListcounter = 0
+        self.timeOfLastEnemyWave = now()
+        self.timeTillNewWave = int(random.uniform(2000, 4000))
+        self.timeOfLastMine = now()
+        self.timeTillNewMine = int(random.uniform(20000, 25000))
+        self.timeOfLastMeteor = now()
+        self.timeTillNewMeteor = int(random.uniform(5000, 10000))
+        self.timeLastShot = now()
+        self.scroll_yPos = 0
+        self.showLevel = True
+        self.Gegnergetroffen = 0
+        self.smallbonusavailable = True
+        self.mediumbonusavailable = True
+        self.largebonusavailable = True
 
 
 class BgTile():
@@ -148,14 +183,13 @@ class BgTile():
 
 class BackgroundSongs():
     def __init__(self):
-        self.sound = ingamemusicSounds[Level - 1]
+        global game
+        self.sound = ingamemusicSounds[game.Level - 1]
 
-    # def play(self):
-    #     self.sound = ingamemusicSounds[Level - 1]
-    #     self.sound.set_volume(0.1)
-    #     self.sound.play(-1)
-
-
+    def play(self, level):
+        self.sound = ingamemusicSounds[level - 1]
+        self.sound.set_volume(0.2)
+        self.sound.play(-1)
 
     def stop(self):
         self.sound.stop()
@@ -165,21 +199,26 @@ class ScrollingBackground():
     def __init__(self):
         # Alle Images laden
         self.bgField = []
-        for i in range(Background_Count[Level - 1]):
-            self.bgField.append(BgTile(i, Level))
-
         self.bottomTile = 0
         self.topTile = -720
         self.movingDownSpeed = SCROLLSPEED
         self.bCounter = 0
 
+    def loadlevel(self, level):
+        self.bCounter = 0
+        self.bottomTile = 0
+        self.topTile = -720
+        del self.bgField[:]
+        for i in range(Background_Count[level - 1]):
+            self.bgField.append(BgTile(i, level))
+
     def update(self):
-        global scroll_yPos, game_console
-        if self.bCounter < Background_Count[Level - 1]:
+        global game, game_console
+        if self.bCounter < Background_Count[game.Level - 1]:
             self.bottomTile += self.movingDownSpeed
             self.topTile += self.movingDownSpeed
-            scroll_yPos += self.movingDownSpeed
-            game_console.updateProgress(scroll_yPos, Background_Count[Level - 1] * 720)
+            game.scroll_yPos += self.movingDownSpeed
+            game_console.updateProgress(game.scroll_yPos, Background_Count[game.Level - 1] * 720)
 
             if self.bottomTile >= 720:
                 self.bottomTile = 0
@@ -187,12 +226,13 @@ class ScrollingBackground():
                 self.bCounter += 1
 
     def zeichnen(self):
-        if self.bCounter < Background_Count[Level - 1] - 1:
+        global game
+        if self.bCounter < Background_Count[game.Level - 1] - 1:
             screen.blit(self.bgField[self.bCounter + 1].image, (0, self.topTile + 38))
             screen.blit(self.bgField[self.bCounter].image, (0, self.bottomTile + 38))
         else:
             screen.fill(BLACK, (0, 0, SCREEN_WIDTH, SCREEN_HEIGHT))
-            game_Mode = BOSS_RUN
+            game.Mode = LEVEL_ENDE
 
 
 class Hero():
@@ -232,6 +272,13 @@ class Hero():
         self.shieldwidth = 0
         self.shieldheight = 0
         self.shieldrotate = 0
+        self.lasersound = laserSounds[0]
+        self.sidelasersound = laserSounds[1]
+        self.doublelasersound = laserSounds[2]
+
+        self.lasersound.set_volume(0.09)
+        self.sidelasersound.set_volume(0.09)
+        self.doublelasersound.set_volume(0.1)
 
         self.rot_rect = 0
         self.orig_rect = 0
@@ -241,24 +288,25 @@ class Hero():
         self.shieldspowered = 4
         if typ == SMALL:
             self.leftCannon = 1
-            if self.firepower < 4:
-                self.firepower = 4
+            if self.firepower < 3:
+                self.firepower = 3
         elif typ == MEDIUM:
             self.leftCannon = 1
             self.rightCannon = 1
-            if self.firepower < 6:
-                self.firepower = 6
+            if self.firepower < 4:
+                self.firepower = 4
         elif typ == LARGE:
             self.leftCannon = 1
             self.rightCannon = 1
             self.doubleCannon = 1
-            if self.firepower < 8:
-                self.firepower = 8
+            if self.firepower < 6:
+                self.firepower = 6
 
-    def update(self):
-        self.x, self.y = pygame.mouse.get_pos()
-        if self.y > 710:
-            self.y = 710
+    def update(self, ingame):
+        if ingame:
+            self.x, self.y = pygame.mouse.get_pos()
+            if self.y > 710:
+                self.y = 710
         self.mode = self.leftCannon + self.rightCannon * 2 + self.doubleCannon * 4
         # Drehe Schutzschild weiter
         self.shieldOriginalImage = schutzschildImages[self.shieldspowered]  # Ausgangspunkt immer vom Originalimage nehmen
@@ -274,7 +322,7 @@ class Hero():
             if self.megabomb:  # ggf.mit Megabombe darunter zeichnen
                 screen.blit(self.megabombImage, (
                     self.x - int(self.megabombImage.get_width() / 2) + 2,
-                    self.y - int(self.megabombImage.get_height() / 2) - 30))
+                    self.y - 110))
             screen.blit(self.image[self.mode], (self.x - int(self.width / 2), self.y - int(self.height / 2)))
             screen.blit(self.shieldImage, (self.x + 3 - int(self.shieldwidth / 2), self.y + 5 - int(self.shieldheight / 2)))
 
@@ -297,7 +345,7 @@ class Hero():
                 self.hidden = False
 
     def upgradefirepower(self):
-        if self.firepower < 10:
+        if self.firepower < 6:
             self.firepower += 1
 
     def installcannon(self, cannon):
@@ -350,7 +398,7 @@ class Hero():
         self.hidden = True
         self.aktiv = False
         self.timehidden = 45
-        self.lives -= 1
+        self.looselive()
         if self.lives > 0:
             if self.firepower > 1:
                 self.firepower -= 1
@@ -391,9 +439,6 @@ class Laser():
         self.image = pygame.transform.scale(self.image, (self.image.get_width() * 0.8, self.image.get_height() * 0.8))
         self.height = self.image.get_height()
         self.width = self.image.get_width()
-        self.lasersound = laserSounds[self.typ]
-        self.lasersound.set_volume(0.07)
-        self.lasersound.play()
         self.remove = False
 
     def bewegen(self):
@@ -412,14 +457,15 @@ class Laser():
 
 
 class Enemyfire():
-    def __init__(self, typ, x, y, angle, speed):
+    def __init__(self, typ, x, y, angle, speed, downspeed):
         self.x = x
         self.y = y
         self.typ = typ
         self.angle = angle
         self.speed = speed
+        self.downspeed = downspeed
         self.image = gegnerlaserImages[self.typ - 1]
-        self.image = pygame.transform.scale(self.image,(self.image.get_width()*0.75,self.image.get_height()*0.5))
+        self.image = pygame.transform.scale(self.image, (self.image.get_width() * 0.75, self.image.get_height() * 0.75))
         self.image = pygame.transform.rotate(self.image, self.angle)
         self.dx = math.cos(self.angle * math.pi / 180) * self.speed
         self.dy = -1 * math.sin(self.angle * math.pi / 180) * self.speed
@@ -434,7 +480,10 @@ class Enemyfire():
 
     def update(self):
         self.x += self.dx
-        self.y += self.dy + SCROLLSPEED
+        self.y += self.dy
+        self.y += self.downspeed
+        if (SCREEN_BOTTOM + 20 < self.y < SCREEN_TOP - 20) or (SCREEN_LEFT - 20 > self.x > SCREEN_RIGHT + 20):
+            self.aufloesen()
 
     def zeichnen(self):
         screen.blit(self.image, (self.x - int(self.width / 2), self.y - int(self.height / 2)))
@@ -449,18 +498,9 @@ class Enemyfire():
 
 class Meteor():
     def __init__(self):
-        self.x = int(random.uniform(40, SCREEN_WIDTH - 40))
-        self.y = SCREEN_TOP - 40
-        if self.x < 300:
-            self.dx = 4
-        elif self.x > SCREEN_WIDTH - 300:
-            self.dx = -4
-        else:
-            self.dx = int(random.uniform(-1, 2)) * 4
-
         self.scalefaktor = random.uniform(0.2, 0.5)
         self.rotatespeed = random.uniform(-4, 5)
-        self.dy = random.uniform(1, 4)
+        self.dy = random.uniform(1, 8)
         self.originalImage = meteorImage[0]  # immer als Referenz für alle Drehungen
         self.originalwidth = self.originalImage.get_width()
         self.originalheight = self.originalImage.get_height()
@@ -470,29 +510,45 @@ class Meteor():
         self.image = self.originalImage  # Bild für Drehung und Darstellung
         self.width = self.image.get_width()
         self.height = self.image.get_height()
+        self.x = int(random.uniform(0 - self.width * 2, SCREEN_WIDTH + self.width * 2))
+        self.y = SCREEN_TOP - self.height / 2
+        if self.x < 300:
+            self.dx = 4
+        elif self.x > SCREEN_WIDTH - 300:
+            self.dx = -4
+        else:
+            self.dx = int(random.uniform(-1, 2)) * 5
+
         self.rotate = 0
         self.remove = False
 
     def bewegen(self):
-        self.x += self.dx
-        self.y += self.dy
-        self.rotate += self.rotatespeed
-        self.image = pygame.transform.rotate(self.originalImage, self.rotate)
-        # neue Breite und Höhe des gedrehten Images bestimmen
-        self.width = self.image.get_width()
-        self.height = self.image.get_height()
+        if (self.y < SCREEN_BOTTOM + 30) and (SCREEN_LEFT - 100 < self.x < SCREEN_RIGHT + 100):
+            self.x += self.dx
+            self.y += self.dy
+            self.rotate += self.rotatespeed
+            self.image = pygame.transform.rotate(self.originalImage, self.rotate)
+            # neue Breite und Höhe des gedrehten Images bestimmen
+            self.width = self.image.get_width()
+            self.height = self.image.get_height()
+        else:
+            self.aufloesen()
+
+    def aufloesen(self):
+        self.remove = True
 
     def zeichnen(self):
         screen.blit(self.image, (self.x - int(self.width / 2), self.y - int(self.height / 2)))
 
     def zerstoeren(self):
         explosionsAktiv.append(Explosion(self.x, self.y, 1, 4, SCROLLSPEED))
-        self.remove = True
+        self.aufloesen()
         game_hero.addPoints(20000)
 
 
 class Enemy():
-    def __init__(self, enemytyp, formation, fireTyp, drehbar, x, y, shield, speed):
+    def __init__(self, enemytyp, formation, fireTyp, drehbar, x, y, speed):
+        global game
         self.enemyTyp = enemytyp
         self.formation = formation
         self.fireTyp = fireTyp
@@ -500,19 +556,37 @@ class Enemy():
         self.speed = speed
         self.x = x
         self.y = y
-        self.scalefaktor = [0, 40, 25, 40, 40, 40, 40, 40, 40, 40]
-        if shield:
-            self.shield = 's'
+        if game.Level == 1:
+            self.hasshield = 0
+        elif game.Level == 2:
+            self.hasshield = int(random.uniform(0, 2))
         else:
-            self.shield = 'n'
-        self.originalImage = pygame.image.load('Enemys/' + str(enemytyp) + self.shield + '.png')
+            self.hasshield = 1
+        self.scalefaktor = [40, 25, 40, 40, 40, 40, 40, 40, 40]
+        self.shieldon = 0
+        self.shieldduration = int(random.uniform(3000, 8000) / (game.Level * 2))
+        self.shieldtimer = 0
+        if self.hasshield == 1:
+            self.shieldon = int(random.uniform(0, 2))
+        self.originalImage = gegnerImages[9 * self.hasshield + self.enemyTyp]
         self.image = self.originalImage
+        self.ladeGegnerImage()
         self.remove = False
 
+        self.height = 0
+        self.width = 0
+        self.rect = 0
+        self.origin_x = 0
+        self.origin_y = 0
+        self.angle = -90
+        self.feuerabstand = int(random.uniform(2000, 4000)) - game.Level / 2 * 800
+        self.feuerzuletzt = 0
+
+    def ladeGegnerImage(self):
+        self.originalImage = gegnerImages[9 * self.shieldon + self.enemyTyp]
         self.originalImage = pygame.transform.scale(self.originalImage,
-                                                    (self.scalefaktor[enemytyp] / 100 * self.originalImage.get_width(),
-                                                     self.scalefaktor[
-                                                         enemytyp] / 100 * self.originalImage.get_height()))
+                                                    (self.scalefaktor[self.enemyTyp] / 100 * self.originalImage.get_width(),
+                                                     self.scalefaktor[self.enemyTyp] / 100 * self.originalImage.get_height()))
         self.image = self.originalImage
         self.height = self.image.get_height()
         self.width = self.image.get_width()
@@ -520,43 +594,60 @@ class Enemy():
         self.origin_x = 0
         self.origin_y = 0
         self.angle = -90
-        self.feuerabstand = int(random.uniform(2000, 4000)) - Level / 2 * 800
-        self.feuerzuletzt = 0
 
     def update(self):
         global game_hero, enemyfireAktiv
 
-        if self.drehbar:
-            mouse_x, mouse_y = pygame.mouse.get_pos()
-            rel_x, rel_y = mouse_x - self.x, mouse_y - self.y
-            self.angle = (180 / math.pi) * -math.atan2(rel_y, rel_x)
-            self.image = pygame.transform.rotate(self.originalImage, int(self.angle))
-        else:
-            self.image = pygame.transform.rotate(self.originalImage, self.angle)
+        if self.hasshield:
+            if now() - self.shieldtimer > self.shieldduration:
+                self.wechselSchutzschild()
+                self.shieldtimer = now()
+        # self.ladeGegnerImage()
         self.y += self.speed
-        if self.formation == 1:
-            self.x -= 6
-        elif self.formation == 2:
-            self.x += 6
-        self.width = self.image.get_width()
-        self.height = self.image.get_height()
-        self.origin_x = self.x - self.width / 2
-        self.origin_y = self.y - self.height / 2
-        if time() * 1000 - self.feuerzuletzt > self.feuerabstand:
-            if self.y > SCREEN_TOP + 100:
-                self.feuerzuletzt = time() * 1000
-                enemyfireAktiv.append(Enemyfire(self.fireTyp, self.x, self.y, self.angle, int(random.uniform(7, 11))))
+        if self.y < SCREEN_BOTTOM + 20:
+            if self.drehbar:
+                mouse_x, mouse_y = pygame.mouse.get_pos()
+                rel_x, rel_y = mouse_x - self.x, mouse_y - self.y
+                self.angle = (180 / math.pi) * -math.atan2(rel_y, rel_x)
+                self.image = pygame.transform.rotate(self.originalImage, int(self.angle))
+            else:
+                self.image = pygame.transform.rotate(self.originalImage, self.angle)
+            if self.formation == 1:
+                self.x -= 6
+            elif self.formation == 2:
+                self.x += 6
+            self.width = self.image.get_width()
+            self.height = self.image.get_height()
+            self.origin_x = self.x - self.width / 2
+            self.origin_y = self.y - self.height / 2
+            if now() - self.feuerzuletzt > self.feuerabstand:
+                if self.y > SCREEN_TOP + 100:
+                    self.feuerzuletzt = now()
+                    enemyfireAktiv.append(Enemyfire(self.fireTyp, self.x, self.y, self.angle, int(random.uniform(7, 11)), SCROLLSPEED))
+        else:
+            self.aufloesen()
+
+    def wechselSchutzschild(self):
+        print('Wechsle Schild')
+        if self.shieldon == 0:
+            self.shieldon = 1
+        else:
+            self.shieldon = 0
+        self.ladeGegnerImage()
 
     def zeichnen(self):
         screen.blit(self.image, (self.origin_x, self.origin_y))
         # image_rect = (self.x - self.width / 2, self.y - self.height / 2, self.width, self.height)  # self.image.get_rect(center=(280, 300))
 
-    def zerstoeren(self, getPoints):
-        global Gegnergetroffen
-        explosionsAktiv.append(Explosion(self.x, self.y, 0, int(random.uniform(1, 8)), self.speed))
+    def aufloesen(self):
         self.remove = True
+
+    def zerstoeren(self, getPoints):
+        global game
+        explosionsAktiv.append(Explosion(self.x, self.y, 0, int(random.uniform(1, 8)), self.speed))
+        self.aufloesen()
         if getPoints:
-            Gegnergetroffen += 1
+            game.Gegnergetroffen += 1
             game_hero.addPoints(500)
 
 
@@ -585,13 +676,16 @@ class Mine():
         self.remove = False
 
     def bewegen(self):
-        self.x += self.dx
-        self.y += SCROLLSPEED + self.dy
-        self.rotate += self.rotatespeed
-        self.originalImage = mineImages[self.kapazitaet]
-        self.image = pygame.transform.rotate(self.originalImage, self.rotate)
-        self.width = self.image.get_width()
-        self.height = self.image.get_height()
+        if (self.y < SCREEN_BOTTOM + 30) and (SCREEN_LEFT - 30 < self.x < SCREEN_RIGHT + 30):
+            self.x += self.dx
+            self.y += SCROLLSPEED + self.dy
+            self.rotate += self.rotatespeed
+            self.originalImage = mineImages[self.kapazitaet]
+            self.image = pygame.transform.rotate(self.originalImage, self.rotate)
+            self.width = self.image.get_width()
+            self.height = self.image.get_height()
+        else:
+            self.aufloesen()
 
     def zeichnen(self):
         screen.blit(self.image, (self.x - int(self.width / 2), self.y - int(self.height / 2)))
@@ -601,12 +695,15 @@ class Mine():
         if self.kapazitaet < 0:
             self.zerstoeren(POINTS_YES)
 
-    def zerstoeren(self, getPoints):
-        global Gegnergetroffen
-        explosionsAktiv.append(Explosion(self.x, self.y, 0, 1, SCROLLSPEED))
+    def aufloesen(self):
         self.remove = True
+
+    def zerstoeren(self, getPoints):
+        global game
+        explosionsAktiv.append(Explosion(self.x, self.y, 0, 1, SCROLLSPEED))
+        self.aufloesen()
         if getPoints:
-            Gegnergetroffen += 1
+            game.Gegnergetroffen += 1
             game_hero.addPoints(200 * self.startkapazitaet)
 
 
@@ -654,37 +751,33 @@ class Explosion():
 
 
 class Kanone():
-    def __init__(self, number):
+    def __init__(self, level, number):
+        self.liste = level - 1
         self.number = number
         self.typ = int(random.uniform(1, 5))
-        self.drehbar = (int(random.uniform(1, 5)) == 1)
-        self.kapazitaet = int(random.uniform(0, Level + 1))
+        self.drehbar = (int(random.uniform(0, 5)) <= level)
+        self.kapazitaet = int(random.uniform(0, level + 1))
         self.startkapazitaet = self.kapazitaet + 1
         if self.kapazitaet > 3: self.kapazitaet = 3
-        self.feuerabstand = int(random.uniform(4000, 6000)) - Level / 2 * 1000
-        self.feuerzuletzt = time() * 1000
-        self.x = Kanonen_x[0][self.number] * 2  # erstes Feld später für Level
-        self.y = scroll_yPos - Kanonen_y[0][self.number] * 2 + 38
+        self.feuerabstand = int(random.uniform(3000, 5000)) - level / 2 * 1000
+        self.feuerzuletzt = now()
+        self.x = Kanonen_x[self.liste][self.number] * 2  # erstes Feld später für Level
+        self.y = game.scroll_yPos - Kanonen_y[self.liste][self.number] * 2 + Kanonen_Versatz[self.liste]
         self.angle = int(random.uniform(-80, 10))
-        if self.x > 240:
+        if self.x > 360:
             self.angle = int(random.uniform(179, 260))
-        self.origin_x = 0
-        self.origin_y = 0
         self.width = 0
         self.height = 0
         self.originalImage = [pygame.image.load('Cannons/' + str(self.typ) + '1.png'),
                               pygame.image.load('Cannons/' + str(self.typ) + '2.png'),
                               pygame.image.load('Cannons/' + str(self.typ) + '3.png'),
                               pygame.image.load('Cannons/' + str(self.typ) + '4.png')]
-        # self.originalImage = pygame.transform.rotate(self.originalImage, -90)
         self.remove = False
 
         for i in range(4):
             self.originalImage[i] = pygame.transform.scale(self.originalImage[i],
                                                            (0.4 * self.originalImage[i].get_width(),
                                                             0.4 * self.originalImage[i].get_height()))
-            # if not self.drehbar:
-            #     self.originalImage[i] = pygame.transform.rotate(self.originalImage[i], self.angle)
         self.image = self.originalImage[0]
         self.height = self.image.get_height()
         self.width = self.image.get_width()
@@ -693,37 +786,42 @@ class Kanone():
     def bewegen(self):
         global game_hero
 
-        if self.drehbar:
-            mouse_x, mouse_y = pygame.mouse.get_pos()
-            rel_x, rel_y = mouse_x - self.x, mouse_y - self.y
-            self.angle = (180 / math.pi) * -math.atan2(rel_y, rel_x)
-            self.image = pygame.transform.rotate(self.originalImage[self.kapazitaet], int(self.angle))
+        if self.y < SCREEN_BOTTOM + 30:
+            if self.drehbar:
+                mouse_x, mouse_y = pygame.mouse.get_pos()
+                rel_x, rel_y = mouse_x - self.x, mouse_y - self.y
+                self.angle = (180 / math.pi) * -math.atan2(rel_y, rel_x)
+                self.image = pygame.transform.rotate(self.originalImage[self.kapazitaet], int(self.angle))
+            else:
+                self.image = pygame.transform.rotate(self.originalImage[self.kapazitaet], self.angle)
+            self.y += SCROLLSPEED
+            self.width = self.image.get_width()
+            self.height = self.image.get_height()
+            if now() - self.feuerzuletzt > self.feuerabstand:
+                self.feuerzuletzt = now()
+                enemyfireAktiv.append(Enemyfire(6, self.x, self.y, self.angle, int(random.uniform(7, 11)), SCROLLSPEED))
+
         else:
-            self.image = pygame.transform.rotate(self.originalImage[self.kapazitaet], self.angle)
-        self.y += SCROLLSPEED
-        self.width = self.image.get_width()
-        self.height = self.image.get_height()
-        self.origin_x = self.x - self.width / 2
-        self.origin_y = self.y - self.height / 2
-        if time() * 1000 - self.feuerzuletzt > self.feuerabstand:
-            self.feuerzuletzt = time() * 1000
-            enemyfireAktiv.append(Enemyfire(6, self.x, self.y, self.angle, int(random.uniform(7, 11))))
+            self.aufloesen()
 
     def zeichnen(self):
-        screen.blit(self.image, (self.origin_x, self.origin_y))
+        screen.blit(self.image, (self.x - int(self.width / 2), self.y - int(self.height / 2)))
         image_rect = (self.x - self.width / 2, self.y - self.height / 2, self.width,
-                      self.height)  # self.image.get_rect(center=(280, 300))
+                      self.height)
 
     def treffer(self):
         self.kapazitaet -= 1
         if self.kapazitaet < 0:
             self.zerstoeren()
 
-    def zerstoeren(self):
-        global Gegnergetroffen
-        explosionsAktiv.append(Explosion(self.x, self.y, 0, int(random.uniform(1, 8)), SCROLLSPEED))
+    def aufloesen(self):
         self.remove = True
-        Gegnergetroffen += 1
+
+    def zerstoeren(self):
+        global game
+        explosionsAktiv.append(Explosion(self.x, self.y, 0, int(random.uniform(1, 8)), SCROLLSPEED))
+        self.aufloesen()
+        game.Gegnergetroffen += 1
         game_hero.addPoints(self.startkapazitaet * 500)
 
 
@@ -737,17 +835,24 @@ class Bonus():
         self.bonussound = bonusSounds[self.typ - 1]
         self.bonussound.set_volume(1.0)
         self.bonusimage = bonusImages[self.typ - 1]
-        self.width = self.bonusimage.get_width()
-        self.height = self.bonusimage.get_height()
+        self.image = self.bonusimage
+        self.width = 0
+        self.height = 0
+        self.rotate = 0
         self.remove = False
 
     def bewegen(self):
-        self.y += SCROLLSPEED + 1
-        self.rect = (self.x - self.width / 2, self.y - self.height / 2, self.width,
-                     self.height)
+        if self.y < SCREEN_BOTTOM + 30:
+            self.y += SCROLLSPEED + 1
+            self.rotate += 5
+            self.image = pygame.transform.rotate(self.bonusimage, self.rotate)
+            self.width = self.image.get_width()
+            self.height = self.image.get_height()
+        else:
+            self.loeschen()
 
     def zeichnen(self):
-        screen.blit(self.bonusimage, (self.x, self.y))
+        screen.blit(self.image, (self.x - int(self.width / 2), self.y - int(self.height / 2)))
 
     def sammeln(self):
         self.bonussound.play()
@@ -847,8 +952,8 @@ class Button():
         self.my_event = 0
         self.x_min = self.x
         self.y_min = self.y
-        self.x_max = self.x_min+self.button_width
-        self.y_max = self.y_min+self.button_height
+        self.x_max = self.x_min + self.button_width
+        self.y_max = self.y_min + self.button_height
 
     def checkselection(self):
         if self.pressable:
@@ -882,9 +987,8 @@ class Titel():
         self.buttondown = Button(BUTTON_DOWN, 0.75, self.buttons_x, self.buttons_y + 119, True, BUTTON_DOWN_PRESSED)
         self.buttonstart = Button(BUTTON_START, 1.1, self.buttons_x - 28, self.buttons_y + 175, True, BUTTON_START_PRESSED)
 
-
     def update(self):
-        self.buttonLevel.originalImage = buttonImages[LEVELWAHL[Level -1]]
+        self.buttonLevel.originalImage = buttonImages[LEVELWAHL[game.Level - 1]]
 
     def zeichnen(self):
         screen.blit(self.image, (self.x, self.y), )
@@ -899,18 +1003,18 @@ class Titel():
         self.buttonstart.checkselection()
 
     def ausblenden(self):
-        print('ausblenden')
-        for i in range(255,0,-5):
+        for i in range(255, 0, -5):
             self.image.set_alpha(i)
-            pygame.draw.rect(screen,BLACK,(0,0,SCREEN_WIDTH,SCREEN_HEIGHT),0)
+            pygame.draw.rect(screen, BLACK, (0, 0, SCREEN_WIDTH, SCREEN_HEIGHT), 0)
             self.buttonup.setalpha(i)
             self.buttonLevel.setalpha(i)
             self.buttondown.setalpha(i)
             self.buttonstart.setalpha(i)
             self.zeichnen()
             pygame.display.update()
-            self.sound.set_volume( 256/ (256-i) *0.2)
+            self.sound.set_volume(256 / (256 - i) * 0.2)
         self.sound.stop()
+
 
 def createLasers():
     laserAktiv.append(Laser(0, game_hero.x, game_hero.y - 56, 0, LASERSPEED * 0.5, 90))
@@ -921,14 +1025,21 @@ def createLasers():
     if game_hero.doubleCannon:
         laserAktiv.append(Laser(3, game_hero.x - 50, game_hero.y + 36, 0, LASERSPEED * 1.2, 90))
         laserAktiv.append(Laser(4, game_hero.x + 50, game_hero.y + 36, 0, LASERSPEED * 1.2, 90))
+    # Wähle abzuspielden Sound aus
+    if game_hero.doubleCannon:
+        game_hero.doublelasersound.play()
+    elif game_hero.leftCannon or game_hero.rightCannon:
+        game_hero.sidelasersound.play()
+    else:
+        game_hero.lasersound.play()
 
 
 def createEnemys():
-    typ = int(random.uniform(1, 10))
+    typ = int(random.uniform(0, 9))
     fire_typ = int(random.uniform(1, 6))
     drehbar = (int(random.uniform(1, 4)) == 1)
     formation = int(random.uniform(1, 6))
-    enemy_count = int(random.uniform(1, 4))
+    enemy_count = (random.uniform(2, 4) + game.Level / 3)
     dx = int(random.uniform(-20, 20))
     verschiebung = int(random.uniform(1, 100))
     x_start = 0
@@ -949,7 +1060,7 @@ def createEnemys():
             x_start = int(random.uniform(80, SCREEN_WIDTH - 80))
             y_start = 0 - 100 * i
         enemyAktiv.append(
-            Enemy(typ, formation, fire_typ, drehbar, x_start, y_start, False, int(random.uniform(4, 7))))
+            Enemy(typ, formation, fire_typ, drehbar, x_start, y_start, int(random.uniform(4, 7))))
 
 
 def collisionHandler():
@@ -959,23 +1070,28 @@ def collisionHandler():
         heroRechteck = pygame.Rect(int(game_hero.x - game_hero.width / 2), int(game_hero.y - game_hero.height / 2) + 10, game_hero.width, game_hero.height - 12)
 
     for mine in minesAktiv:
-        mineRechteck = pygame.Rect(int(mine.x - mine.width / 2), int(mine.y - mine.height / 2), mine.width, mine.height)
-        if mineRechteck.colliderect(heroRechteck):
-            mine.zerstoeren(POINTS_NO)
-            game_hero.treffer()
-        for laser in laserAktiv:
-            laserRechteck = pygame.Rect(int(laser.x - laser.width / 2) + 4, int(laser.y - laser.height / 2) + 4,
-                                        laser.width - 8,
-                                        laser.height - 8)
+        if SCREEN_TOP < mine.y < SCREEN_BOTTOM and SCREEN_LEFT < mine.x < SCREEN_RIGHT:
+            mineRechteck = pygame.Rect(int(mine.x - mine.width / 2), int(mine.y - mine.height / 2), mine.width, mine.height)
 
-            if mineRechteck.colliderect(laserRechteck):
-                laserAktiv.remove(laser)
-                mine.treffer()
-        for meteor in meteorsAktiv:
-            meteorRechteck = pygame.Rect(meteor.x - int(meteor.originalwidth / 2) + 50 * meteor.scalefaktor, meteor.y - int(meteor.originalheight / 2) + 50 * meteor.scalefaktor, meteor.originalwidth - 100 * meteor.scalefaktor,
-                                         meteor.originalheight - 100 * meteor.scalefaktor)
-            if mineRechteck.colliderect(meteorRechteck):
+            if mineRechteck.colliderect(heroRechteck):
                 mine.zerstoeren(POINTS_NO)
+                game_hero.treffer()
+            for laser in laserAktiv:
+                laserRechteck = pygame.Rect(int(laser.x - laser.width / 2) + 4, int(laser.y - laser.height / 2) + 4,
+                                            laser.width - 8,
+                                            laser.height - 8)
+
+                if mineRechteck.colliderect(laserRechteck):
+                    if mine.kapazitaet > 0:
+                        laser.zerstoeren()
+                    else:
+                        laser.aufloesen()
+                    mine.treffer()
+            for meteor in meteorsAktiv:
+                meteorRechteck = pygame.Rect(meteor.x - int(meteor.originalwidth / 2) + 50 * meteor.scalefaktor, meteor.y - int(meteor.originalheight / 2) + 50 * meteor.scalefaktor, meteor.originalwidth - 100 * meteor.scalefaktor,
+                                             meteor.originalheight - 100 * meteor.scalefaktor)
+                if mineRechteck.colliderect(meteorRechteck):
+                    mine.zerstoeren(POINTS_NO)
 
     for laser in laserAktiv:
         laserRechteck = pygame.Rect(int(laser.x - laser.width / 2) + 4, int(laser.y - laser.height / 2) + 4,
@@ -990,7 +1106,7 @@ def collisionHandler():
     for enemyfire in enemyfireAktiv:
         enemyfireRechteck = pygame.Rect(int(enemyfire.x - enemyfire.width / 2) + 4, int(enemyfire.y - enemyfire.height / 2) + 4, enemyfire.width - 8, enemyfire.height - 8)
         if enemyfireRechteck.colliderect(heroRechteck):
-            enemyfire.aufloesen()
+            enemyfire.zerstoeren()
             game_hero.treffer()
 
         for meteor in meteorsAktiv:
@@ -1001,61 +1117,76 @@ def collisionHandler():
             if enemyfireRechteck.colliderect(meteorRechteck):
                 enemyfire.zerstoeren()
 
-    for enemy in enemyAktiv:
-        enemyRechteck = pygame.Rect(int(enemy.x - enemy.width / 2) + 4, int(enemy.y - enemy.height / 2) + 4,
-                                    enemy.width - 8,
-                                    enemy.height - 8)
-        for laser in laserAktiv:
-            laserRechteck = pygame.Rect(int(laser.x - laser.width / 2) + 4, int(laser.y - laser.height / 2) + 4,
-                                        laser.width - 8,
-                                        laser.height - 8)
-
-            if enemyRechteck.colliderect(laserRechteck):
-                laserAktiv.remove(laser)
-                enemy.zerstoeren(POINTS_YES)
-
-        for meteor in meteorsAktiv:
-            meteorRechteck = pygame.Rect(meteor.x - int(meteor.originalwidth / 2) + 50 * meteor.scalefaktor, meteor.y - int(meteor.originalheight / 2) + 50 * meteor.scalefaktor, meteor.originalwidth - 100 * meteor.scalefaktor,
-                                         meteor.originalheight - 100 * meteor.scalefaktor)
-            if enemyRechteck.colliderect(meteorRechteck):
-                enemy.zerstoeren(POINTS_NO)
-
-        if enemyRechteck.colliderect(heroRechteck):
-            enemy.zerstoeren(POINTS_YES)
+    for meteor in meteorsAktiv:
+        meteorRechteck = pygame.Rect(meteor.x - int(meteor.originalwidth / 2) + 50 * meteor.scalefaktor, meteor.y - int(meteor.originalheight / 2) + 50 * meteor.scalefaktor, meteor.originalwidth - 100 * meteor.scalefaktor,
+                                     meteor.originalheight - 100 * meteor.scalefaktor)
+        if meteorRechteck.colliderect(heroRechteck):
             game_hero.treffer()
+
+    for enemy in enemyAktiv:
+        if SCREEN_TOP < enemy.y < SCREEN_BOTTOM and SCREEN_LEFT < enemy.x < SCREEN_RIGHT:
+            enemyRechteck = pygame.Rect(int(enemy.x - enemy.width / 2) + 4, int(enemy.y - enemy.height / 2) + 4,
+                                        enemy.width - 8,
+                                        enemy.height - 8)
+            for laser in laserAktiv:
+                laserRechteck = pygame.Rect(int(laser.x - laser.width / 2) + 4, int(laser.y - laser.height / 2) + 4,
+                                            laser.width - 8,
+                                            laser.height - 8)
+
+                if enemyRechteck.colliderect(laserRechteck):
+                    if enemy.shieldon == 0:
+                        laser.aufloesen()
+                        enemy.zerstoeren(POINTS_YES)
+                    else:
+                        laser.zerstoeren()
+
+            for meteor in meteorsAktiv:
+                meteorRechteck = pygame.Rect(meteor.x - int(meteor.originalwidth / 2) + 50 * meteor.scalefaktor, meteor.y - int(meteor.originalheight / 2) + 50 * meteor.scalefaktor, meteor.originalwidth - 100 * meteor.scalefaktor,
+                                             meteor.originalheight - 100 * meteor.scalefaktor)
+                if enemyRechteck.colliderect(meteorRechteck):
+                    enemy.zerstoeren(POINTS_NO)
+
+            if enemyRechteck.colliderect(heroRechteck):
+                enemy.zerstoeren(POINTS_YES)
+                game_hero.treffer()
 
     for kanone in kanonenAktiv:
-        kanoneRechteck = pygame.Rect(int(kanone.x - kanone.width / 2) + 8, int(kanone.y - kanone.height / 2) + 8,
-                                     kanone.width - 16,
-                                     kanone.height - 16)
+        if SCREEN_TOP < kanone.y < SCREEN_BOTTOM:
 
-        for laser in laserAktiv:
-            laserRechteck = pygame.Rect(int(laser.x - laser.width / 2) + 4, int(laser.y - laser.height / 2) + 4,
-                                        laser.width - 8,
-                                        laser.height - 8)
+            kanoneRechteck = pygame.Rect(int(kanone.x - kanone.width / 2) + 8, int(kanone.y - kanone.height / 2) + 8,
+                                         kanone.width - 16,
+                                         kanone.height - 16)
+            for laser in laserAktiv:
+                laserRechteck = pygame.Rect(int(laser.x - laser.width / 2) + 4, int(laser.y - laser.height / 2) + 4,
+                                            laser.width - 8,
+                                            laser.height - 8)
 
-            if kanoneRechteck.colliderect(laserRechteck):
-                laserAktiv.remove(laser)
-                kanone.treffer()
-        if kanoneRechteck.colliderect(heroRechteck):
-            kanone.zerstoeren()
-            game_hero.treffer()
+                if kanoneRechteck.colliderect(laserRechteck):
+                    if kanone.kapazitaet > 0:
+                        laser.zerstoeren()
+                    else:
+                        laser.aufloesen()
+                    kanone.treffer()
+            if kanoneRechteck.colliderect(heroRechteck):
+                kanone.zerstoeren()
+                game_hero.treffer()
 
+    heroRechteck = pygame.Rect(int(game_hero.x - game_hero.width / 2), int(game_hero.y - game_hero.height / 2) + 10, game_hero.width, game_hero.height - 12)
     for bonus in bonusAktiv:
-        bonusRechteck = pygame.Rect(int(bonus.x - bonus.width / 2) + 2, int(bonus.y - bonus.height / 2) + 2,
-                                    bonus.width - 4,
-                                    bonus.height - 4)
-        if bonusRechteck.colliderect(heroRechteck):
-            bonus.sammeln()
+        if bonus.y > SCREEN_TOP and bonus.y < SCREEN_BOTTOM:
+            bonusRechteck = pygame.Rect(int(bonus.x - bonus.width / 2) + 2, int(bonus.y - bonus.height / 2) + 2,
+                                        bonus.width - 4,
+                                        bonus.height - 4)
+            if bonusRechteck.colliderect(heroRechteck):
+                bonus.sammeln()
 
-    # Prüfe Kollision von Gegner mit Hero
-    # pygame.draw.rect(screen, WHITE, heroRechteck,2)
 
 class LevelPanel():
     def __init__(self):
+        global game
         self.x = 150
         self.y = 500
-        self.image = levelImages[Level-1]
+        self.image = levelImages[game.Level - 1]
         self.width = self.image.get_width()
         self.height = self.image.get_height()
         self.dcounter = 5
@@ -1063,12 +1194,12 @@ class LevelPanel():
         self.zeigen = True
 
     def init(self):
-        global Level
-        self.image = levelImages[Level-1]
+        global game
+        self.image = levelImages[game.Level - 1]
         self.width = self.image.get_width()
         self.height = self.image.get_height()
-        self.x = int((SCREEN_WIDTH-self.width)/2)
-        self.y = int((SCREEN_HEIGHT-self.height)/2)
+        self.x = int((SCREEN_WIDTH - self.width) / 2)
+        self.y = int((SCREEN_HEIGHT - self.height) / 2)
         self.dcounter = 4
         self.alpha = 0
         self.zeigen = True
@@ -1076,16 +1207,21 @@ class LevelPanel():
     def show(self):
         if self.zeigen:
             if self.alpha >= 255:
-                self.dcounter =-8
+                self.dcounter = -8
             self.alpha += self.dcounter
-            if self.alpha >=0:
+            if self.alpha >= 0:
                 self.image.set_alpha(self.alpha)
-                screen.blit(self.image, (self.x,self.y))
+                screen.blit(self.image, (self.x, self.y))
             else:
                 self.zeigen = False
 
+
+def now():
+    return time() * 1000
+
+
 def allObjectsHandler():
-    global background, level_panel, kanonenListcounter, timeOfLastEnemyWave, timeTillNewWave, timeOfLastMine, timeTillNewMine, timeOfLastMeteor, timeTillNewMeteor, Gegnergetroffen
+    global background, level_panel, game
 
     # print('Kanonen: '+str(len(kanonenAktiv))+'  Gegner: '+str(len(enemyAktiv))+'  Bonus: '+str(len(bonusAktiv))+'  Gegnerfeuer: '+str(len(enemyfireAktiv))+'  Lasers: '+str(len(laserAktiv))+'  Explosionen: '+str(len(explosionsAktiv)))
 
@@ -1093,58 +1229,57 @@ def allObjectsHandler():
     background.update()
     background.zeichnen()
 
-    now = time()*1000
-
     # Aktive Gegnerschüsse bewegen und entfernen (werden automatisch von Enemy und Kanonen-Objekten erzeugt)
     for enemyfire in enemyfireAktiv:
         # Wenn Schuss ausserhalb des sichtbaren Spielfeldes, dann weg damit
-        if enemyfire.remove or (enemyfire.y > SCREEN_BOTTOM + 20) or (enemyfire.y < SCREEN_TOP - 20) or (enemyfire.x < SCREEN_LEFT - 20) or (enemyfire.x > SCREEN_RIGHT + 20):
+        if enemyfire.remove:
             enemyfireAktiv.remove(enemyfire)
         else:
             enemyfire.update()
             enemyfire.zeichnen()
 
     # Neue Kanonen erzeugen, bewegen und entfernen
-    if len(Kanonen_y[0]) > kanonenListcounter:
-        if Kanonen_y[0][kanonenListcounter] * 2 - scroll_yPos < 50:
+    if len(Kanonen_y[game.Level - 1]) > game.kanonenListcounter:
+        if Kanonen_y[game.Level - 1][game.kanonenListcounter] * 2 < game.scroll_yPos + Kanonen_Versatz[game.Level - 1]:
             # nächste Kanone erzeugen
-            kanonenAktiv.append(Kanone(kanonenListcounter))
-            kanonenListcounter += 1
-        for kanone in kanonenAktiv:
+            kanonenAktiv.append(Kanone(game.Level, game.kanonenListcounter))
+            game.kanonenListcounter += 1
+    for kanone in kanonenAktiv:
+        if kanone.remove:
+            kanonenAktiv.remove(kanone)
+        else:
             kanone.bewegen()
             kanone.zeichnen()
-            if kanone.remove or (kanone.y > SCREEN_BOTTOM + 20):
-                kanonenAktiv.remove(kanone)
 
-    if (now - timeOfLastMine > timeTillNewMine):
-        timeOfLastMine = time() * 1000
-        timeTillNewMine = int(random.uniform(10000, 15000))
+    if (now() - game.timeOfLastMine > game.timeTillNewMine):
+        game.timeOfLastMine = now()
+        game.timeTillNewMine = int(random.uniform(10000, 15000))
         minesAktiv.append(Mine())
     for mine in minesAktiv:
-        if (mine.remove) or (mine.y > SCREEN_BOTTOM + 20):
+        if mine.remove:
             minesAktiv.remove(mine)
         else:
             mine.bewegen()
             mine.zeichnen()
 
-    if (now - timeOfLastMeteor > timeTillNewMeteor):
-        timeOfLastMeteor = time() * 1000
-        timeTillNewMeteor = int(random.uniform(10000, 20000))
+    if (now() - game.timeOfLastMeteor > game.timeTillNewMeteor):
+        game.timeOfLastMeteor = now()
+        game.timeTillNewMeteor = int(random.uniform(10000, 20000))
         meteorsAktiv.append(Meteor())
     for meteor in meteorsAktiv:
-        if (meteor.remove) or (meteor.y > SCREEN_BOTTOM + 60) or (meteor.x < SCREEN_LEFT - 60) or (meteor.x > SCREEN_RIGHT + 60):
+        if meteor.remove:
             meteorsAktiv.remove(meteor)
         else:
             meteor.bewegen()
             meteor.zeichnen()
 
     # neue Gegnerwellen erzeugen, bewegen und entfernen
-    if now - timeOfLastEnemyWave > timeTillNewWave:  # In Abhängigkeit vom Level neue Welle nach Zufallszeitspanne erzeugen
+    if now() - game.timeOfLastEnemyWave > game.timeTillNewWave:  # In Abhängigkeit vom Level neue Welle nach Zufallszeitspanne erzeugen
         createEnemys()
-        timeOfLastEnemyWave = time() * 1000  # aktuelle Zeit als neuen Bezugspunkt festlegen
-        timeTillNewWave = int(random.uniform(4000, 6000) - Level * 500)  # Zufallszeitspanne bis zu nächster Welle festlegen
+        game.timeOfLastEnemyWave = now()  # aktuelle Zeit als neuen Bezugspunkt festlegen
+        game.timeTillNewWave = int(random.uniform(4000, 6000) - game.Level * 700)  # Zufallszeitspanne bis zu nächster Welle festlegen
     for enemy in enemyAktiv:  # alle gerade aktiven Gegner-Objekte animieren
-        if (enemy.remove) or (enemy.y > SCREEN_BOTTOM + 20):
+        if enemy.remove:
             enemyAktiv.remove(enemy)
         else:
             enemy.update()
@@ -1159,8 +1294,8 @@ def allObjectsHandler():
             explosion.bewegen()
 
     # Bonussymbole erzeugen, bewegen und entfernen
-    if Gegnergetroffen > 6 - Level:
-        Gegnergetroffen = 0
+    if game.Gegnergetroffen > 8 - game.Level:
+        game.Gegnergetroffen = 0
         bonusAktiv.append(Bonus(0))
 
     for bonus in bonusAktiv:
@@ -1171,7 +1306,7 @@ def allObjectsHandler():
             bonus.zeichnen()
 
     # eigenes Raumschiff animieren und zeichnen
-    game_hero.update()
+    game_hero.update(True)
     game_hero.zeichnen()
 
     # Laser bewegen und entfernen (werden automatisch von Hero-Objekt erzeugt)
@@ -1188,24 +1323,44 @@ def allObjectsHandler():
     if level_panel.zeigen:
         level_panel.show()
 
+
 def startLevel():
-    global game_Mode, level_panel, timeOfLastEnemyWave,timeTillNewWave,timeOfLastMine,timeTillNewMine,timeOfLastMeteor,timeTillNewMeteor, game_backgroundmusic, showLevel
+    global game, level_panel, game_backgroundmusic
 
     pygame.mouse.set_visible(False)
+    background.loadlevel(game.Level)
+
     # Initialisiere Zeiten
-    now = time()*1000
-    timeOfLastEnemyWave = now
-    timeTillNewWave = int(random.uniform(2000, 4000))
-    timeOfLastMine = now
-    timeTillNewMine = int(random.uniform(20000, 25000))
-    timeOfLastMeteor = now
-    timeTillNewMeteor = int(random.uniform(5000, 10000))
-    game_Mode = NORMAL_RUN
-    game_backgroundmusic.sound.set_volume(0.3)
-    game_backgroundmusic.sound.play(-1)
+    game.levelinit()
+
+    del minesAktiv[:]
+    del meteorsAktiv[:]
+    del enemyfireAktiv[:]
+    del enemyAktiv[:]
+    del kanonenAktiv[:]
+    del bonusAktiv[:]
+    del explosionsAktiv[:]
+    game.Mode = NORMAL_RUN
 
     level_panel.init()
+    mixer.Sound("Sounds/Jetzt kann der Spaß anfangen.wav").play()
+    game_backgroundmusic.play(game.Level)
 
+
+def moveoutHero():
+    global game_hero, game, background
+
+    if game_hero.y < SCREEN_TOP - 100:
+        game.Level += 1
+        startLevel()
+    game_hero.y -= 6
+    background.zeichnen()
+    game_hero.update(False)
+    game_hero.zeichnen()
+    game_console.zeichnen()
+
+
+game = Game()
 background = ScrollingBackground()
 game_hero = Hero()
 game_console = GameConsole()
@@ -1218,7 +1373,7 @@ mousepressed = False
 
 # Game Loop
 while True:
-    act_time = time() * 1000
+
     # Cycles through all occurring events
     for event in pygame.event.get():
         if event.type == QUIT:
@@ -1226,11 +1381,11 @@ while True:
             pygame.quit()
             sys.exit()
         if event.type == BUTTON_DOWN_PRESSED:
-            if Level > 1:
-                Level -= 1
+            if game.Level > 1:
+                game.Level -= 1
         if event.type == BUTTON_UP_PRESSED:
-            if Level < 4:
-                Level += 1
+            if game.Level < 4:
+                game.Level += 1
         if event.type == BUTTON_START_PRESSED:
             game_titel.ausblenden()
             startLevel()
@@ -1238,42 +1393,45 @@ while True:
         if event.type == MOUSEBUTTONUP:
             mousepressed = False
 
-    if game_Mode == START:
+    if game.Mode == START:
         # Zeige Titelbild mit Buttons
         game_titel.update()
         game_titel.zeichnen()
         mouseButton = pygame.mouse.get_pressed()
         if mouseButton[0]:
             if not mousepressed:
-                mousepressed=True
+                mousepressed = True
                 game_titel.checkselection()
-    if game_Mode == NORMAL_RUN:
+    if game.Mode == NORMAL_RUN:
         # Abfrage, ob Taste gedrückt
         gedrueckt = pygame.key.get_pressed()
         # Linkspfeil gedrückt
         if gedrueckt[K_a]:
-            if smallbonusavailable:
-                smallbonusavailable = False
+            if game.smallbonusavailable:
+                game.smallbonusavailable = False
                 bonusAktiv.append(Bonus(9))
         if gedrueckt[K_s]:
-            if mediumbonusavailable:
-                mediumbonusavailable = False
+            if game.mediumbonusavailable:
+                game.mediumbonusavailable = False
                 bonusAktiv.append(Bonus(10))
         if gedrueckt[K_d]:
-            if largebonusavailable:
-                largebonusavailable = False
+            if game.largebonusavailable:
+                game.largebonusavailable = False
                 bonusAktiv.append(Bonus(11))
         mouseButton = pygame.mouse.get_pressed()
         if mouseButton[0]:
             if game_hero.aktiv:  # Schüsse abgeben mit linker Maustaste
-                if (act_time - timeLastShot) > 1000 / game_hero.firepower:
+                if (now() - game.timeLastShot) > 1000 / game_hero.firepower:
                     createLasers()
-                    timeLastShot = time() * 1000
+                    game.timeLastShot = now()
         allObjectsHandler()
         collisionHandler()
         if mouseButton[2]:  # Zünde Megabombe mit rechter Maustaste
             if game_hero.has_megabomb():
                 game_hero.zuendeMegabombe()
+    if game.Mode == LEVEL_ENDE:  # Bewege Raumschiff nach oben aus dem sichtbaren Bereich
+        moveoutHero()
+        collisionHandler()
 
     pygame.display.update()
     clock.tick(FPS)
