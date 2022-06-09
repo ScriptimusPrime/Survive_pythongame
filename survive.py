@@ -32,12 +32,10 @@ LEVEL_START = 2
 NORMAL_RUN = 3
 BOSS_ENTER = 4
 BOSS_RUN = 5
-LEVEL_ENDE =6
+LEVEL_ENDE = 6
 SPIEL_ENDE = 7
 GAME_OVER = 8
 WAIT = 9
-
-
 
 SMALL = 1
 MEDIUM = 2
@@ -81,16 +79,18 @@ Kanonen_y = [
 Kanonen_Versatz = [38, 38, 340, 750]
 Background_Mapping = [3, 1, 2, 4]
 Background_Count = [24, 24, 31, 57]
-Bonus_Map = [1,1,2,2,2,2,3,4,4,4,4,5,5,6,6,7,7,7,8,8,8]
-Boss_Bahn_x = [12,12,10,10, 8, 7, 7, 6, 6, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3, 3, 2, 1, 1, 0, 0,-1,-1,-2,-3,-3,-4,-4,-5,-5,-5,-6,-6,-6,-6,-6,-6,-7,-7,-8,-10,-10,-12,-12,-12,-12,-10,-10,-8,-7,-7,-6,-6,-6,-6,-6,-6,-5,-5,-5,-4,-4,-3,-3,-2,-1,-1, 0, 0, 1, 2, 3, 3, 4, 4, 5, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 8,10,10,12,12]
-Boss_Bahn_y = [-6,-6,-5,-4,-4,-3,-2,-2,-1,-1, 0, 0, 0, 0, 1, 1, 2, 2, 3, 4, 4, 5, 6, 6, 6, 6, 5, 4, 4, 3, 2, 2, 1, 1, 0, 0, 0, 0,-1,-1,-2,-2, -3, -4, -4, -5, -6, -6, -6, -6,-5,-4,-4,-3,-2,-2,-1,-1, 0, 0, 0, 0, 1, 1, 2, 2, 3, 4, 4, 5, 6, 6, 6, 6, 5, 4, 4, 3, 2, 2, 1, 1, 0, 0, 0,-1,-1,-2,-2,-3,-4,-4,-5,-6,-6]
-Boss_Kanone_x = [[-38,-21,-96,69,80,31,-75,76,-96,4,2,-40,106],[-27,-48,-65,-113,65,48,27,113,1,82,-82,-35,35],
-                  [-112,112,-71,71,-11,11,0,-94,94,-151,151,-93,93,30,-30,-45,45],[-103,103,-134,134,-121,121,-62,62,-16,16,-43,43,-72,72,-83,83,-155,155,-147,147]]
-Boss_Kanone_y = [[-22,-40,-33,-47,-48,-38,-21,23,16,-48,14,20,3],[-53,-53,-23,6,-23,-53,-53,6,-4,-7,-7,15,15],[-30,-30,-23,-23,-41,-41,4,22,22,-46,-46,-23,-23,-11,-11,-15,-15],
-                  [-20,-20,-10,-10,-31,-31,-55,-55,-19,-19,-61,-61,-46,-46,-7,-7,52,52,-7,-7]]
-Boss_Kanone_typ = [[2,2,2,2,3,3,3,1,1,1,4,4,4],[2,2,2,2,3,3,3,3,1,1,1,4,4],[4,4,4,4,4,4,1,1,1,3,2,3,2,2,3,2,3],[1,1,1,1,4,4,4,4,4,4,2,3,2,3,2,3,2,3,2,3]]
-Boss_Kanone_hits =[[3,3,3,3,3,3,3,4,4,4,2,2,2],[3,3,3,3,3,3,3,3,4,4,4,2,2],[5,5,5,5,5,5,6,6,6,5,5,5,5,6,6,6,6],[5,5,5,5,5,5,5,5,5,5,5,5,6,6,6,6,6,6,6,6]]
-Boss_Kanone_dy = [5,0,19,50]
+Bonus_Map = [1, 1, 2, 2, 2, 2, 3, 4, 4, 4, 4, 5, 5, 6, 6, 7, 7, 7, 8, 8, 8]
+Boss_Bahn_x = [12, 12, 10, 10, 8, 7, 7, 6, 6, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3, 3, 2, 1, 1, 0, 0, -1, -1, -2, -3, -3, -4, -4, -5, -5, -5, -6, -6, -6, -6, -6, -6, -7, -7, -8, -10, -10, -12, -12, -12, -12, -10, -10, -8, -7, -7, -6, -6, -6, -6, -6, -6, -5,
+               -5, -5, -4, -4, -3, -3, -2, -1, -1, 0, 0, 1, 2, 3, 3, 4, 4, 5, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 8, 10, 10, 12, 12]
+Boss_Bahn_y = [-6, -6, -5, -4, -4, -3, -2, -2, -1, -1, 0, 0, 0, 0, 1, 1, 2, 2, 3, 4, 4, 5, 6, 6, 6, 6, 5, 4, 4, 3, 2, 2, 1, 1, 0, 0, 0, 0, -1, -1, -2, -2, -3, -4, -4, -5, -6, -6, -6, -6, -5, -4, -4, -3, -2, -2, -1, -1, 0, 0, 0, 0, 1, 1, 2, 2, 3, 4,
+               4, 5, 6, 6, 6, 6, 5, 4, 4, 3, 2, 2, 1, 1, 0, 0, 0, -1, -1, -2, -2, -3, -4, -4, -5, -6, -6]
+Boss_Kanone_x = [[-38, -21, -96, 69, 80, 31, -75, 76, -96, 4, 2, -40, 106], [-27, -48, -65, -113, 65, 48, 27, 113, 1, 82, -82, -35, 35],
+                 [-112, 112, -71, 71, -11, 11, 0, -94, 94, -151, 151, -93, 93, 30, -30, -45, 45], [-103, 103, -134, 134, -121, 121, -62, 62, -16, 16, -43, 43, -72, 72, -83, 83, -155, 155, -147, 147]]
+Boss_Kanone_y = [[-22, -40, -33, -47, -48, -38, -21, 23, 16, -48, 14, 20, 3], [-53, -53, -23, 6, -23, -53, -53, 6, -4, -7, -7, 15, 15], [-30, -30, -23, -23, -41, -41, 4, 22, 22, -46, -46, -23, -23, -11, -11, -15, -15],
+                 [-20, -20, -10, -10, -31, -31, -55, -55, -19, -19, -61, -61, -46, -46, -7, -7, 52, 52, -7, -7]]
+Boss_Kanone_typ = [[2, 2, 2, 2, 3, 3, 3, 1, 1, 1, 4, 4, 4], [2, 2, 2, 2, 3, 3, 3, 3, 1, 1, 1, 4, 4], [4, 4, 4, 4, 4, 4, 1, 1, 1, 3, 2, 3, 2, 2, 3, 2, 3], [1, 1, 1, 1, 4, 4, 4, 4, 4, 4, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3]]
+Boss_Kanone_hits = [[3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 2, 2, 2], [3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 2, 2], [5, 5, 5, 5, 5, 5, 6, 6, 6, 5, 5, 5, 5, 6, 6, 6, 6], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6]]
+Boss_Kanone_dy = [5, 0, 19, 50]
 
 # Weitere Konstanten
 SCREEN_WIDTH = 960  # Breite des sichtbaren Spielfeldbereichs
@@ -102,7 +102,7 @@ SCREEN_RIGHT = SCREEN_WIDTH  # Max-x-Koordinate des sichtbaren Spielfeldbereichs
 SPEED = 5
 SCORE = 0
 LASERSPEED = 30
-SCROLLSPEED = 3
+SCROLLSPEED = 4
 POINTS_NO = False
 POINTS_YES = True
 
@@ -115,7 +115,7 @@ game_over = font.render("Game Over", True, BLACK)
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 screen.fill(BLACK)
 pygame.display.set_caption("Survive")
-screen.blit(pygame.transform.scale(image.load('Sonstiges/Titel.png'), (SCREEN_WIDTH, SCREEN_HEIGHT)),(0,0) )
+screen.blit(pygame.transform.scale(image.load('Sonstiges/Titel.png'), (SCREEN_WIDTH, SCREEN_HEIGHT)), (0, 0))
 
 pygame.display.update()
 pygame.mouse.set_visible(False)
@@ -142,11 +142,11 @@ mineImages = [image.load('Mine/1.png'), image.load('Mine/2.png'), image.load('Mi
 meteorImage = [image.load('Meteor/meteor.png')]
 zahlImages = [image.load('Zahlen/0.png'), image.load('Zahlen/1.png'), image.load('Zahlen/2.png'), image.load('Zahlen/3.png'), image.load('Zahlen/4.png'), image.load('Zahlen/5.png'), image.load('Zahlen/6.png'), image.load('Zahlen/7.png'),
               image.load('Zahlen/8.png'), image.load('Zahlen/9.png')]
-bossImages = [image.load('Boss/boss1.png'),image.load('Boss/boss2.png'),image.load('Boss/boss3.png'),image.load('Boss/boss4.png')]
-Boss_Kanone_Image = [[image.load('Boss/1-1.png'),image.load('Boss/1-2.png'),image.load('Boss/1-3.png'),image.load('Boss/1-4.png'),image.load('Boss/1-5.png'),image.load('Boss/1-6.png')],
-                    [image.load('Boss/2-1.png'),image.load('Boss/2-2.png'),image.load('Boss/2-3.png'),image.load('Boss/2-4.png'),image.load('Boss/2-5.png'),image.load('Boss/2-6.png')],
-                    [image.load('Boss/3-1.png'),image.load('Boss/3-2.png'),image.load('Boss/3-3.png'),image.load('Boss/3-4.png'),image.load('Boss/3-5.png'),image.load('Boss/3-6.png')],
-                    [image.load('Boss/4-1.png'),image.load('Boss/4-2.png'),image.load('Boss/4-3.png'),image.load('Boss/4-4.png'),image.load('Boss/4-5.png'),image.load('Boss/4-6.png')]]
+bossImages = [image.load('Boss/boss1.png'), image.load('Boss/boss2.png'), image.load('Boss/boss3.png'), image.load('Boss/boss4.png')]
+Boss_Kanone_Image = [[image.load('Boss/1-1.png'), image.load('Boss/1-2.png'), image.load('Boss/1-3.png'), image.load('Boss/1-4.png'), image.load('Boss/1-5.png'), image.load('Boss/1-6.png')],
+                     [image.load('Boss/2-1.png'), image.load('Boss/2-2.png'), image.load('Boss/2-3.png'), image.load('Boss/2-4.png'), image.load('Boss/2-5.png'), image.load('Boss/2-6.png')],
+                     [image.load('Boss/3-1.png'), image.load('Boss/3-2.png'), image.load('Boss/3-3.png'), image.load('Boss/3-4.png'), image.load('Boss/3-5.png'), image.load('Boss/3-6.png')],
+                     [image.load('Boss/4-1.png'), image.load('Boss/4-2.png'), image.load('Boss/4-3.png'), image.load('Boss/4-4.png'), image.load('Boss/4-5.png'), image.load('Boss/4-6.png')]]
 laserSounds = [mixer.Sound('Sounds/Laser0.wav'), mixer.Sound('Sounds/Laser1.wav'), mixer.Sound('Sounds/Laser4.wav')]
 explosionSounds = [mixer.Sound('Explosionssounds/exp1.wav'), mixer.Sound('Explosionssounds/exp2.wav'), mixer.Sound('Explosionssounds/exp3.wav'), mixer.Sound('Explosionssounds/exp4.wav'),
                    mixer.Sound('Explosionssounds/exp5.wav'), mixer.Sound('Explosionssounds/exp6.wav'), mixer.Sound('Explosionssounds/exp7.wav'), mixer.Sound('Explosionssounds/exp8.wav'),
@@ -155,7 +155,8 @@ bonusSounds = [mixer.Sound('Bonussounds/1.mp3'), mixer.Sound('Bonussounds/2.wav'
                mixer.Sound('Bonussounds/4.wav'), mixer.Sound('Bonussounds/5.wav'), mixer.Sound('Bonussounds/6.mp3'),
                mixer.Sound('Bonussounds/7.wav'), mixer.Sound('Bonussounds/8.wav'), mixer.Sound('Bonussounds/9.mp3'),
                mixer.Sound('Bonussounds/10.wav'), mixer.Sound('Bonussounds/11.wav'), mixer.Sound('Bonussounds/Plopp.wav')]
-ingamemusicSounds = [mixer.Sound('Sounds/Act of War.mp3.wav'), mixer.Sound('Sounds/We will meet again.mp2.wav'), mixer.Sound('Sounds/determined_pursuit_loop.wav'), mixer.Sound('Sounds/Are You With Us.wav')]
+ingamemusicSounds = ['Sounds/Act of War.mp3','Sounds/We will meet again.mp3','Sounds/determined_pursuit_loop.mp3','Sounds/Are You With Us.mp3']
+
 
 laserAktiv = []
 enemyAktiv = []
@@ -170,38 +171,58 @@ bosskanonenAktiv = []
 
 class Game():
     def __init__(self):
-        self.kanonenListcounter = 0
-        self.timeOfLastEnemyWave = 0
-        self.timeTillNewWave = 0
-        self.timeOfLastMine = 0
-        self.timeTillNewMine = 0
-        self.timeOfLastMeteor = 0
-        self.timeTillNewMeteor = 0
-        self.timeLastShot = now()
-        self.scroll_yPos = 0
+        self.kanonenListcounter = None
+        self.timeOfLastEnemyWave = None
+        self.timeTillNewWave = None
+        self.timeOfLastMine = None
+        self.timeTillNewMine = None
+        self.timeOfLastMeteor = None
+        self.timeTillNewMeteor = None
+        self.timeLastShot = None
         self.Mode = START
-        self.showLevel = True
+        self.showLevel = None
         self.Level = 1
+        self.Gegnergetroffen = None
+        self.smallbonusavailable = None
+        self.mediumbonusavailable = None
+        self.largebonusavailable = None
+
+    def levelinit(self):
+        self.kanonenListcounter = 0
+        self.timeOfLastEnemyWave = now() + int(random.uniform(2000,3000))
+        self.timeTillNewWave = int(random.uniform(2000, 4000))
+        self.timeOfLastMine = now() + int(random.uniform(10000,15000))
+        self.timeTillNewMine = int(random.uniform(20000, 25000))
+        self.timeOfLastMeteor = now() + int(random.uniform(10000,15000))
+        self.timeTillNewMeteor = int(random.uniform(5000, 10000))
+        self.timeLastShot = now()
+        self.showLevel = True
         self.Gegnergetroffen = 0
         self.smallbonusavailable = True
         self.mediumbonusavailable = True
         self.largebonusavailable = True
 
-    def levelinit(self):
-        self.kanonenListcounter = 0
-        self.timeOfLastEnemyWave = now()
-        self.timeTillNewWave = int(random.uniform(2000, 4000))
-        self.timeOfLastMine = now()
-        self.timeTillNewMine = int(random.uniform(20000, 25000))
-        self.timeOfLastMeteor = now()
-        self.timeTillNewMeteor = int(random.uniform(5000, 10000))
-        self.timeLastShot = now()
-        self.scroll_yPos = 0
-        self.showLevel = True
+    def setzeMode(self,mode):
+        self.Mode = mode
+        print("game.Mode auf %i gesetzt", self.Mode)
+
+    def erhoeheklc(self):
+        self.kanonenListcounter += 1
+
+    def resetGegnergetroffen(self):
         self.Gegnergetroffen = 0
-        self.smallbonusavailable = True
-        self.mediumbonusavailable = True
-        self.largebonusavailable = True
+
+    def setzemeteortime(self):
+        self.timeOfLastMeteor = now()
+        self.timeTillNewMeteor = int(random.uniform(10000, 20000))
+
+    def setzeminetime(self):
+        self.timeOfLastMine = now()
+        self.timeTillNewMine = int(random.uniform(10000, 15000))
+
+    def setzewavetime(self):
+        self.timeOfLastEnemyWave = now()  # aktuelle Zeit als neuen Bezugspunkt festlegen
+        self.timeTillNewWave = int(random.uniform(4000, 6000) - self.Level * 700)  # Zufallszeitspanne bis zu nächster Welle festlegen
 
 
 class BgTile():
@@ -212,18 +233,13 @@ class BgTile():
         self.level = level
 
 
-class BackgroundSongs():
-    def __init__(self):
-        global game
-        self.sound = ingamemusicSounds[game.Level - 1]
+def playBackgroundSongs(level):
+        mixer.music.load(ingamemusicSounds[level - 1])
+        mixer.music.set_volume(0.2)
+        mixer.music.play(-1,0,0)
 
-    def play(self, level):
-        self.sound = ingamemusicSounds[level - 1]
-        self.sound.set_volume(0.2)
-        self.sound.play(-1)
-
-    def stop(self):
-        self.sound.stop()
+def stopBackgroundSongs():
+        mixer.music.stop()
 
 
 class ScrollingBackground():
@@ -234,8 +250,10 @@ class ScrollingBackground():
         self.topTile = -720
         self.movingDownSpeed = SCROLLSPEED
         self.bCounter = 0
+        self.scroll_yPos = None
 
     def loadlevel(self, level):
+        self.scroll_yPos = 0
         self.bCounter = 0
         self.bottomTile = 0
         self.topTile = -720
@@ -244,12 +262,11 @@ class ScrollingBackground():
             self.bgField.append(BgTile(i, level))
 
     def update(self):
-        global game, game_console
         if self.bCounter < Background_Count[game.Level - 1]:
             self.bottomTile += self.movingDownSpeed
             self.topTile += self.movingDownSpeed
-            game.scroll_yPos += self.movingDownSpeed
-            game_console.updateProgress(game.scroll_yPos, Background_Count[game.Level - 1] * 720)
+            self.scroll_yPos += self.movingDownSpeed
+            game_console.updateProgress(self.scroll_yPos, Background_Count[game.Level - 1] * 720)
 
             if self.bottomTile >= 720:
                 self.bottomTile = 0
@@ -264,7 +281,7 @@ class ScrollingBackground():
         else:
             screen.fill(BLACK, (0, 0, SCREEN_WIDTH, SCREEN_HEIGHT))
             if game.Mode == NORMAL_RUN:
-                game.Mode = BOSS_ENTER
+                game.setzeMode(BOSS_ENTER)
 
 
 class Hero():
@@ -397,7 +414,7 @@ class Hero():
     def looselive(self):
         self.lives -= 1
         if self.lives == 0:
-            game.Mode = GAME_OVER
+            game.setzeMode(GAME_OVER)
 
     def upgradeshields(self):
         if self.shields < 4:
@@ -442,7 +459,7 @@ class Hero():
 
     def zuendeMegabombe(self):
         self.megabomb = False
-        explosionsAktiv.append(Explosion(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2 - 100, 3, 9, 0))
+        explosionsAktiv.append(Explosion(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2 - 100, 2.5, 9, 0))
         for enemy in enemyAktiv:
             enemy.zerstoeren(POINTS_YES)
         for enemyfire in enemyfireAktiv:
@@ -638,7 +655,7 @@ class Enemy():
         self.y += self.speed
         if self.y < SCREEN_BOTTOM + 20:
             if self.drehbar:
-                self.angle = pygame.math.Vector2(self.x-game_hero.x,self.y-game_hero.y).angle_to((-1,0))
+                self.angle = pygame.math.Vector2(self.x - game_hero.x, self.y - game_hero.y).angle_to((-1, 0))
                 self.image = pygame.transform.rotate(self.originalImage, int(self.angle))
             else:
                 self.image = pygame.transform.rotate(self.originalImage, self.angle)
@@ -653,7 +670,7 @@ class Enemy():
             if now() - self.feuerzuletzt > self.feuerabstand:
                 if self.y > SCREEN_TOP + 100:
                     self.feuerzuletzt = now()
-                    enemyfireAktiv.append(Enemyfire(self.fireTyp, self.x, self.y, self.angle, int(random.uniform(7, 11)), SCROLLSPEED))
+                    enemyfireAktiv.append(Enemyfire(self.fireTyp, self.x, self.y, self.angle, int(random.uniform(7, 11))+game.Level, SCROLLSPEED))
         else:
             self.aufloesen()
 
@@ -744,7 +761,7 @@ class Explosion():
         self.exp_downspeed = exp_downspeed
         self.image = []
         self.expImageCount = [0, 7, 19, 7, 17, 12, 16, 20, 11, 10, 7]
-        self.expScale = [0, 0.7, 0.7, 0.7, 0.5, 0.5, 0.5, 0.5, 1, 0.5, 0.5]
+        self.expScale = [0, 0.7, 0.7, 0.7, 0.3, 0.5, 0.5, 0.5, 1, 0.5, 0.5]
         if self.size > 0:
             self.scale = self.size
         else:
@@ -790,7 +807,7 @@ class Kanone():
         self.feuerabstand = int(random.uniform(3000, 5000)) - level / 2 * 1000
         self.feuerzuletzt = now()
         self.x = Kanonen_x[self.liste][self.number] * 2  # erstes Feld später für Level
-        self.y = game.scroll_yPos - Kanonen_y[self.liste][self.number] * 2 + Kanonen_Versatz[self.liste]
+        self.y = background.scroll_yPos - Kanonen_y[self.liste][self.number] * 2 + Kanonen_Versatz[self.liste]
         self.angle = int(random.uniform(-80, 10))
         if self.x > 360:
             self.angle = int(random.uniform(179, 260))
@@ -816,7 +833,7 @@ class Kanone():
 
         if self.y < SCREEN_BOTTOM + 30:
             if self.drehbar:
-                self.angle = self.angle = pygame.math.Vector2(self.x-game_hero.x,self.y-game_hero.y).angle_to((-1,0))
+                self.angle = self.angle = pygame.math.Vector2(self.x - game_hero.x, self.y - game_hero.y).angle_to((-1, 0))
 
                 self.image = pygame.transform.rotate(self.originalImage[self.kapazitaet], int(self.angle))
             # else:
@@ -826,7 +843,7 @@ class Kanone():
             self.height = self.image.get_height()
             if now() - self.feuerzuletzt > self.feuerabstand:
                 self.feuerzuletzt = now()
-                enemyfireAktiv.append(Enemyfire(6, self.x, self.y, self.angle, int(random.uniform(7, 11)), SCROLLSPEED))
+                enemyfireAktiv.append(Enemyfire(6, self.x, self.y, self.angle, int(random.uniform(7, 11))+game.Level, SCROLLSPEED))
 
         else:
             self.aufloesen()
@@ -1043,8 +1060,9 @@ class Titel():
             self.sound.set_volume(256 / (256 - i) * 0.2)
         self.sound.stop()
 
+
 class Bosskanone():
-    def __init__(self,level,num):
+    def __init__(self, level, num):
         self.num = num
         self.level = level
         self.typ = Boss_Kanone_typ[level][num]
@@ -1052,17 +1070,17 @@ class Bosskanone():
         self.dy = Boss_Kanone_y[level][num]
         self.kapazitaet = Boss_Kanone_hits[level][num]
         self.startkapazitaet = self.kapazitaet
-        self.originalImage = Boss_Kanone_Image[self.typ-1][self.kapazitaet-1]
-        self.drehbar = (self.typ ==1 or self.typ == 4)
+        self.originalImage = Boss_Kanone_Image[self.typ - 1][self.kapazitaet - 1]
+        self.drehbar = (self.typ == 1 or self.typ == 4)
         self.angle = -90
         self.image = pygame.transform.rotate(self.originalImage, self.angle)
         self.width = self.image.get_width()
         self.height = self.image.get_height()
-        self.feuerzuletzt = now()+random.uniform(2000,4000)
-        self.feuerabstand = random.uniform(1000,3000)
+        self.feuerzuletzt = now() + random.uniform(2000, 4000)
+        self.feuerabstand = random.uniform(1000, 3000)
         self.remove = False
-        self.x=0
-        self.y=0
+        self.x = 0
+        self.y = 0
 
     def treffer(self):
         self.kapazitaet -= 1
@@ -1080,45 +1098,45 @@ class Bosskanone():
         game_hero.addPoints(self.startkapazitaet * 500)
 
     def update(self):
-        self.angle = pygame.math.Vector2(self.x-game_hero.x,self.y-game_hero.y).angle_to((-1,0))
+        self.angle = pygame.math.Vector2(self.x - game_hero.x, self.y - game_hero.y).angle_to((-1, 0))
 
         self.image = pygame.transform.rotate(self.originalImage, int(self.angle))
         self.width = self.image.get_width()
         self.height = self.image.get_height()
 
     def updateImage(self):
-        self.originalImage = Boss_Kanone_Image[self.typ-1][self.kapazitaet-1]
-
+        self.originalImage = Boss_Kanone_Image[self.typ - 1][self.kapazitaet - 1]
 
     def bewegen(self):
         global boss
-        self.x = boss.x + 2*self.dx
-        self.y = boss.y - 2*self.dy+Boss_Kanone_dy[self.level]
+        self.x = boss.x + 2 * self.dx
+        self.y = boss.y - 2 * self.dy + Boss_Kanone_dy[self.level]
 
         if self.drehbar:
             self.update()
 
         if now() - self.feuerzuletzt > self.feuerabstand:
             self.feuerzuletzt = now()
-            enemyfireAktiv.append(Enemyfire(self.typ+5, self.x, self.y, self.angle, int(random.uniform(7, 11)), SCROLLSPEED))
+            enemyfireAktiv.append(Enemyfire(self.typ + 5, self.x, self.y, self.angle, int(random.uniform(5, 9)), SCROLLSPEED))
 
     def zeichnen(self):
-        screen.blit(self.image,(int(self.x-self.width/2),int(self.y-self.height/2)))
+        screen.blit(self.image, (int(self.x - self.width / 2), int(self.y - self.height / 2)))
+
 
 class Boss():
     def __init__(self):
         global game
-        print ('init Level-Boss')
+        print('init Level-Boss')
         self.counter = 0
-        self.x = SCREEN_WIDTH/2
+        self.x = SCREEN_WIDTH / 2
         self.y = SCREEN_TOP - 100
-        self.num = game.Level -1
+        self.num = game.Level - 1
         self.originalImage = bossImages[self.num]
-        self.originalImage = pygame.transform.rotate(self.originalImage,-90)
+        self.originalImage = pygame.transform.rotate(self.originalImage, -90)
         self.image = self.originalImage
         self.width = self.image.get_width()
         self.height = self.image.get_height()
-        self.bosskanonencount=1
+        self.bosskanonencount = 1
         self.remove = False
         self.zerstoert = False
         self.lastexplosion = 0
@@ -1126,11 +1144,11 @@ class Boss():
 
     def initLevel(self):
         global game
-        self.x = SCREEN_WIDTH/2
+        self.x = SCREEN_WIDTH / 2
         self.y = SCREEN_TOP - 100
-        self.bossnum = game.Level -1
+        self.bossnum = game.Level - 1
         self.originalImage = bossImages[self.bossnum]
-        self.originalImage = pygame.transform.rotate(self.originalImage,-90)
+        self.originalImage = pygame.transform.rotate(self.originalImage, -90)
         self.image = self.originalImage
         self.width = self.image.get_width()
         self.height = self.image.get_height()
@@ -1141,49 +1159,46 @@ class Boss():
         # erzeuge Bosskanonen
         del bosskanonenAktiv[:]
         for i in range(len(Boss_Kanone_x[self.bossnum])):
-            bosskanonenAktiv.append(Bosskanone(self.bossnum,i))
-        self.bosskanonencount=len(bosskanonenAktiv)
+            bosskanonenAktiv.append(Bosskanone(self.bossnum, i))
+        self.bosskanonencount = len(bosskanonenAktiv)
 
     def bewegen(self):
         self.x += Boss_Bahn_x[self.counter]
         self.y += Boss_Bahn_y[self.counter]
 
-        self.counter+=1
+        self.counter += 1
         if self.counter >= len(Boss_Bahn_x):
             self.counter = 0
 
     def enter(self):
-        global game
         self.y += 3
-        if self.y > SCREEN_TOP+40+int(self.height/2):
-            game.Mode = BOSS_RUN
+        if self.y > SCREEN_TOP + 40 + int(self.height / 2):
+            game.setzeMode(BOSS_RUN)
             print('GameMode = BOSS-RUN')
 
     def kanonezerstoert(self):
-        self.bosskanonencount-=1
-#        if self.bosskanonencount<0:
-#            self.bosskanonencount=0
-        if self.bosskanonencount ==0:
+        self.bosskanonencount -= 1
+        #        if self.bosskanonencount<0:
+        #            self.bosskanonencount=0
+        if self.bosskanonencount == 0:
             self.remove = True
             self.zerstoert = False
 
     def zerstoeren(self):
         if self.explosioncount > 0:
-            if now()-self.lastexplosion > 150:
+            if now() - self.lastexplosion > 150:
                 self.lastexplosion = now()
                 self.explosioncount -= 1
-                x = random.uniform(self.x-self.width/2, self.x+self.width/2)
-                y = random.uniform(self.y-self.height/2,self.y+self.height/2)
-                size = random.uniform(0.8,1.1)
-                explosionsAktiv.append(Explosion(x,y,size,1,0))
+                x = random.uniform(self.x - self.width / 2, self.x + self.width / 2)
+                y = random.uniform(self.y - self.height / 2, self.y + self.height / 2)
+                size = random.uniform(0.8, 1.1)
+                explosionsAktiv.append(Explosion(x, y, size, 1, 0))
         else:
-            explosionsAktiv.append(Explosion(self.x,self.y,2.3,4,0))
+            explosionsAktiv.append(Explosion(self.x, self.y, 2.3, 4, 0))
             self.zerstoert = True
 
     def zeichnen(self):
-        screen.blit(self.image,(int(self.x - self.width/2),int(self.y - self.height/2)))
-
-
+        screen.blit(self.image, (int(self.x - self.width / 2), int(self.y - self.height / 2)))
 
 
 def createLasers():
@@ -1197,10 +1212,13 @@ def createLasers():
         laserAktiv.append(Laser(4, game_hero.x + 50, game_hero.y + 36, 0, LASERSPEED * 1.2, 90))
     # Wähle abzuspielden Sound aus
     if game_hero.doubleCannon:
+        game_hero.doublelasersound.set_volume(0.1)
         game_hero.doublelasersound.play()
     elif game_hero.leftCannon or game_hero.rightCannon:
+        game_hero.sidelasersound.set_volume(0.09)
         game_hero.sidelasersound.play()
     else:
+        game_hero.lasersound.set_volume(0.09)
         game_hero.lasersound.play()
 
 
@@ -1230,7 +1248,7 @@ def createEnemys():
             x_start = int(random.uniform(80, SCREEN_WIDTH - 80))
             y_start = 0 - 100 * i
         enemyAktiv.append(
-            Enemy(typ, formation, fire_typ, drehbar, x_start, y_start, int(random.uniform(4, 8))))
+            Enemy(typ, formation, fire_typ, drehbar, x_start, y_start, int(random.uniform(SCROLLSPEED+2, SCROLLSPEED+5))))
 
 
 def collisionHandler():
@@ -1238,13 +1256,13 @@ def collisionHandler():
         heroRechteck1 = heroRechteck2 = pygame.Rect(0, 0, 0, 0, )
     else:
         heroRechteck1 = pygame.Rect(game_hero.x - 50, game_hero.y, 102, 36)
-        heroRechteck2 = pygame.Rect(game_hero.x - 9, game_hero.y-35, 20, 80)
+        heroRechteck2 = pygame.Rect(game_hero.x - 9, game_hero.y - 35, 20, 80)
         if SHOWRECTS:
-            pygame.draw.rect(screen,RED, heroRechteck1,2)
-            pygame.draw.rect(screen,RED, heroRechteck2,2)
+            pygame.draw.rect(screen, RED, heroRechteck1, 2)
+            pygame.draw.rect(screen, RED, heroRechteck2, 2)
     for mine in minesAktiv:
         if SCREEN_TOP < mine.y < SCREEN_BOTTOM and SCREEN_LEFT < mine.x < SCREEN_RIGHT:
-            mineRechteck = pygame.Rect(mine.x-30, mine.y - 30, 60,60)
+            mineRechteck = pygame.Rect(mine.x - 30, mine.y - 30, 60, 60)
             if SHOWRECTS:  pygame.draw.rect(screen, RED, mineRechteck, 2)
 
             if mineRechteck.colliderect(heroRechteck1) or mineRechteck.colliderect((heroRechteck2)):
@@ -1292,7 +1310,7 @@ def collisionHandler():
 
     if game.Mode == BOSS_RUN:
         for bosskanone in bosskanonenAktiv:
-            bosskanoneRechteck = pygame.Rect(bosskanone.x-bosskanone.width/2,bosskanone.y-bosskanone.height/2,bosskanone.width,bosskanone.height)
+            bosskanoneRechteck = pygame.Rect(bosskanone.x - bosskanone.width / 2, bosskanone.y - bosskanone.height / 2, bosskanone.width, bosskanone.height)
             if SHOWRECTS: pygame.draw.rect(screen, RED, bosskanoneRechteck, 2)
             for laser in laserAktiv:
                 laserRechteck = pygame.Rect(laser.x - 3, laser.y - 3, 6, 6)
@@ -1303,7 +1321,6 @@ def collisionHandler():
                     else:
                         laser.aufloesen()
                     bosskanone.treffer()
-
 
     for meteor in meteorsAktiv:
         meteorRechteck = pygame.Rect(meteor.x - int(meteor.originalwidth / 2) + 50 * meteor.scalefaktor, meteor.y - int(meteor.originalheight / 2) + 50 * meteor.scalefaktor, meteor.originalwidth - 100 * meteor.scalefaktor,
@@ -1341,7 +1358,7 @@ def collisionHandler():
     for kanone in kanonenAktiv:
         if SCREEN_TOP < kanone.y < SCREEN_BOTTOM:
 
-            kanoneRechteck = pygame.Rect(kanone.x -40, kanone.y - 40,80,80)
+            kanoneRechteck = pygame.Rect(kanone.x - 40, kanone.y - 40, 80, 80)
             if SHOWRECTS: pygame.draw.rect(screen, RED, kanoneRechteck, 2)
             for laser in laserAktiv:
                 laserRechteck = pygame.Rect(int(laser.x - laser.width / 2) + 4, int(laser.y - laser.height / 2) + 4,
@@ -1414,35 +1431,38 @@ def now():
 
 
 def allObjectsHandler():
-    global background, level_panel, game
+    global game
 
     # neue Gegner erzeugen im Modus NORMAL_RUN
     if game.Mode == NORMAL_RUN:
+        # Kanonen erzeugen, wenn in Reichweite
         if len(Kanonen_y[game.Level - 1]) > game.kanonenListcounter:
-            if Kanonen_y[game.Level - 1][game.kanonenListcounter] * 2 < game.scroll_yPos + Kanonen_Versatz[game.Level - 1]:
+            if Kanonen_y[game.Level - 1][game.kanonenListcounter] * 2 < background.scroll_yPos + Kanonen_Versatz[game.Level - 1]:
                 # nächste Kanone erzeugen
                 kanonenAktiv.append(Kanone(game.Level, game.kanonenListcounter))
-                game.kanonenListcounter += 1
+                game.erhoeheklc()
 
-        if (now() - game.timeOfLastMine > game.timeTillNewMine):
-            game.timeOfLastMine = now()
-            game.timeTillNewMine = int(random.uniform(10000, 15000))
-            minesAktiv.append(Mine())
-
-        if (now() - game.timeOfLastMeteor > game.timeTillNewMeteor):
-            game.timeOfLastMeteor = now()
-            game.timeTillNewMeteor = int(random.uniform(10000, 20000))
-            meteorsAktiv.append(Meteor())
-        # neue Gegnerwellen erzeugen, bewegen und entfernen
+        # neue Gegnerwellen erzeugen
         if now() - game.timeOfLastEnemyWave > game.timeTillNewWave:  # In Abhängigkeit vom Level neue Welle nach Zufallszeitspanne erzeugen
             createEnemys()
-            game.timeOfLastEnemyWave = now()  # aktuelle Zeit als neuen Bezugspunkt festlegen
-            game.timeTillNewWave = int(random.uniform(4000, 6000) - game.Level * 700)  # Zufallszeitspanne bis zu nächster Welle festlegen
+            game.setzewavetime()
+
+        # ab Level 2 Minen
+        if game.Level > 1 and now() - game.timeOfLastMine > game.timeTillNewMine:
+            minesAktiv.append(Mine())
+            game.setzeminetime()
+
+
+        # ab Level 3 Meteoriten
+        if game.Level > 2 and now() - game.timeOfLastMeteor > game.timeTillNewMeteor:
+            meteorsAktiv.append(Meteor())
+            game.setzemeteortime()
 
     # Bonussymbole in beiden Spielmodi erzeugen
     if game.Gegnergetroffen > 8 - game.Level:
-        game.Gegnergetroffen = 0
+        game.resetGegnergetroffen()
         bonusAktiv.append(Bonus(0))
+
 
     # print('Kanonen: '+str(len(kanonenAktiv))+'  Gegner: '+str(len(enemyAktiv))+'  Bonus: '+str(len(bonusAktiv))+'  Gegnerfeuer: '+str(len(enemyfireAktiv))+'  Lasers: '+str(len(laserAktiv))+'  Explosionen: '+str(len(explosionsAktiv)))
 
@@ -1459,7 +1479,6 @@ def allObjectsHandler():
     # 10. eigene Laser
     # 11. Spielkonsole
     # 12. Level-Panel
-
 
     if not game.Mode == LEVEL_ENDE:
         # 1. Hintergrund
@@ -1480,7 +1499,7 @@ def allObjectsHandler():
                     if not boss.zerstoert:
                         boss.zerstoeren()
                     else:
-                        game.Mode = LEVEL_ENDE
+                        game.setzeMode(LEVEL_ENDE)
                         print('GameMode = LEVEL_ENDE')
                         endLevel()
                 else:
@@ -1495,7 +1514,6 @@ def allObjectsHandler():
                 else:
                     bosskanone.bewegen()
                     bosskanone.zeichnen()
-
 
         # 3. Gegnerschüsse bewegen und entfernen (werden automatisch von Enemy und Kanonen-Objekten erzeugt)
         for enemyfire in enemyfireAktiv:
@@ -1542,6 +1560,13 @@ def allObjectsHandler():
             bonus.bewegen()
             bonus.zeichnen()
 
+    # 10. eigene Laser bewegen und entfernen (werden automatisch von Hero-Objekt erzeugt)
+    for laser in laserAktiv:
+        if (laser.remove) or (laser.y > SCREEN_BOTTOM + 20) or (laser.y < SCREEN_TOP - 20) or (laser.x < SCREEN_LEFT - 20) or (laser.x > SCREEN_RIGHT + 20):
+            laserAktiv.remove(laser)
+        else:
+            laser.bewegen()
+            laser.zeichnen()
 
     # 9. Explosionen ausführen und entfernen
     for explosion in explosionsAktiv:  # alle gerade aktiven Explosions-Objekte animieren
@@ -1550,14 +1575,6 @@ def allObjectsHandler():
         else:  # sonst Objekt animieren
             explosion.explode()
             explosion.bewegen()
-
-    # 10. eigene Laser bewegen und entfernen (werden automatisch von Hero-Objekt erzeugt)
-    for laser in laserAktiv:
-        if (laser.remove) or (laser.y > SCREEN_BOTTOM + 20) or (laser.y < SCREEN_TOP - 20) or (laser.x < SCREEN_LEFT - 20) or (laser.x > SCREEN_RIGHT + 20):
-            laserAktiv.remove(laser)
-        else:
-            laser.bewegen()
-            laser.zeichnen()
 
     # 11. Rahmen der Gamekonsole legen
     game_console.zeichnen()
@@ -1568,7 +1585,7 @@ def allObjectsHandler():
 
 
 def startLevel():
-    global game, level_panel, game_backgroundmusic, game_hero, game_console
+    global game_hero
 
     pygame.mouse.set_visible(False)
     background.loadlevel(game.Level)
@@ -1584,19 +1601,21 @@ def startLevel():
     del kanonenAktiv[:]
     del bonusAktiv[:]
     del explosionsAktiv[:]
-    game.Mode = LEVEL_START
+    game.setzeMode(LEVEL_START)
     game_hero.y = SCREEN_BOTTOM + 50
 
     level_panel.init(LEVEL_START)
     mixer.Sound("Sounds/Jetzt kann der Spaß anfangen.wav").play()
-    game_backgroundmusic.play(game.Level)
+    playBackgroundSongs(game.Level)
+
 
 def endLevel():
     global game, level_panel, game_backgroundmusic, game_hero
 
     level_panel.init(LEVEL_ENDE)
     mixer.Sound("Sounds/Atmen DV.wav").play()
-    game_backgroundmusic.play(game.Level)
+    playBackgroundSongs(game.Level)
+
 
 def gameover():
     global game, level_panel
@@ -1604,6 +1623,7 @@ def gameover():
     level_panel.init(GAME_OVER)
     mixer.Sound("Sounds/game_over.wav").play()
     # game_backgroundmusic.play(game.Level)
+
 
 def moveoutHero():
     global game_hero, game, background
@@ -1619,9 +1639,7 @@ def moveoutHero():
         if game.Level <= 4:
             startLevel()
         else:
-            game.Mode = SPIEL_ENDE
-
-
+            game.setzeMode(SPIEL_ENDE)
 
 
 def moveinHero():
@@ -1637,22 +1655,22 @@ def moveinHero():
         game_hero.zeichnen()
         game_console.zeichnen()
     else:
-        game.Mode = NORMAL_RUN
+        game.setzeMode(NORMAL_RUN)
         boss.initLevel()
-
 
 
 game = Game()
 background = ScrollingBackground()
 game_hero = Hero()
 game_console = GameConsole()
-game_backgroundmusic = BackgroundSongs()
+
 game_titel = Titel()
 level_panel = LevelPanel()
 pygame.mouse.set_visible(True)
 boss = Boss()
 
 mousepressed = False
+pausestart = None
 
 # Game Loop
 while True:
@@ -1703,7 +1721,7 @@ while True:
                 bonusAktiv.append(Bonus(11))
 
         allObjectsHandler()
-        #if not game.Mode == BOSS_ENTER:
+        # if not game.Mode == BOSS_ENTER:
         mouseButton = pygame.mouse.get_pressed()
         if mouseButton[0]:
             if game_hero.aktiv:  # Schüsse abgeben mit linker Maustaste
@@ -1714,7 +1732,6 @@ while True:
             if game_hero.has_megabomb():
                 game_hero.zuendeMegabombe()
         collisionHandler()
-
 
     if game.Mode == LEVEL_ENDE:  # Bewege Raumschiff nach oben aus dem sichtbaren Bereich
         moveoutHero()
@@ -1729,10 +1746,10 @@ while True:
         game.Mode = WAIT
     if game.Mode == WAIT:
         allObjectsHandler()
-        if now()-pausestart > 6000:
-            game.Mode = SPIEL_ENDE
+        if now() - pausestart > 6000:
+            game.setzeMode(SPIEL_ENDE)
     if game.Mode == SPIEL_ENDE:
         pygame.quit()
         sys.exit()
-    pygame.display.update()
+    pygame.display.flip()
     clock.tick(FPS)
